@@ -150,17 +150,17 @@
   flex-shrink: 0;
 }
 
-.btn-check:active + .btn-outline-primary,
-.btn-check:checked + .btn-outline-primary,
-.btn-outline-primary.active,
-.btn-outline-primary.dropdown-toggle.show,
-.btn-outline-primary:active {
+.btn-check:active + .btn__outline__primary,
+.btn-check:checked + .btn__outline__primary,
+.btn__outline__primary.active,
+.btn__outline__primary.dropdown-toggle.show,
+.btn__outline__primary:active {
   background: rgba(97, 85, 223, 0.3);
   border: 0.2px solid #6155df;
   color: black;
 }
 
-.btn-outline-primary {
+.btn__outline__primary {
   width: 50%;
   height: 104px;
   flex-shrink: 0;
@@ -175,11 +175,11 @@
   box-shadow: 0.2px 0.9px 0.9px 0px rgba(0, 0, 0, 0.2);
 }
 
-.btn-outline-primary:hover {
+.btn__outline__primary:hover {
   background: rgba(97, 85, 223, 0.3);
 }
 
-.btn-outline-primary:active {
+.btn__outline__primary:active {
   border: 0.2px solid #6155df;
 }
 
@@ -233,10 +233,3 @@
   margin: 20px 200px;
 }
 
-
-@media (max-width: 991.98px) {
-  .list__link {
-    padding: calc(1.325rem + 0.9vw);
-    font-size: 1rem; /* 1.125rem is small enough, so RFS won't rescale this */
-  }
-}

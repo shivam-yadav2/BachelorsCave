@@ -23,7 +23,7 @@
   text-align: left;
   background: #fff;
   width: 500px;
-  height: 600px;
+  height: 550px;
   border-radius: 10px;
 }
 
@@ -38,17 +38,35 @@
 }
 
 .loginWidth {
+  position: relative;
   width: 80%;
-  padding-top: 30px;
+  height: 44px;
   border-bottom: 1px solid #909090;
   text-align: left;
   margin: 0 auto;
 }
 
+.loginWidth img{
+  position: absolute;
+  width: 25px;
+  bottom: 10px;
+}
+
 .email__input{
+  position: absolute;
   border: none;
   outline: none;
-  top: -27px;
+  top: 12px;
+  background-color: transparent;
   left: 30px;
   padding-left: 20px;
+}
+
+.logn__withbutton{
+    /* border: 1px solid #6c63ff; */
+    display: flex;
+    margin: 0 auto;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 125px;
 }

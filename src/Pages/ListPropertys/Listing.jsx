@@ -48,7 +48,7 @@ const Listing = () => {
                                             <div className="col-lg-6">
                                                 <div >
                                                     <input type="radio" className="btn-check" name="btnradio" id="btnradio1" autoComplete="off" defaultChecked />
-                                                    <label className="btn btn-outline-primary Listing__option " htmlFor="btnradio1">
+                                                    <label className="btn btn-outline-primary btn__outline__primary Listing__option " htmlFor="btnradio1">
                                                         <div className="d-flex justify-content-center"    >
                                                             <img src="/image/Room.png" alt="" />
 
@@ -57,7 +57,7 @@ const Listing = () => {
                                             </div>
                                             <div className="col-lg-6"> <div >
                                                 <input type="radio" className="btn-check" name="btnradio" id="btnradio2" autoComplete="off" />
-                                                <label className="btn btn-outline-primary Listing__option " htmlFor="btnradio2">
+                                                <label className="btn btn-outline-primary btn__outline__primary Listing__option " htmlFor="btnradio2">
                                                     <div className="d-flex justify-content-center">
                                                         <img src="/image/Room.png" alt="" />
                                                         <img src="/image/Room.png" alt="" />
@@ -66,7 +66,7 @@ const Listing = () => {
                                             </div></div>
                                             <div className="col-lg-6"> <div >
                                                 <input type="radio" className="btn-check" name="btnradio" id="btnradio3" autoComplete="off" />
-                                                <label className="btn btn-outline-primary  Listing__option" htmlFor="btnradio3">
+                                                <label className="btn btn-outline-primary btn__outline__primary  Listing__option" htmlFor="btnradio3">
                                                     <div className="d-flex justify-content-center">
                                                         <img src="/image/Room.png" alt="" />
                                                         <img src="/image/Room.png" alt="" />
@@ -76,7 +76,7 @@ const Listing = () => {
                                             </div></div>
                                             <div className="col-lg-6"><div >
                                                 <input type="radio" className="btn-check" name="btnradio" id="btnradio4" autoComplete="off" />
-                                                <label className="btn btn-outline-primary Listing__option " htmlFor="btnradio4">
+                                                <label className="btn btn-outline-primary btn__outline__primary Listing__option " htmlFor="btnradio4">
                                                     <div className="d-flex justify-content-center">
                                                         <img src="/image/Room.png" alt="" />
                                                         <img src="/image/Room.png" alt="" />

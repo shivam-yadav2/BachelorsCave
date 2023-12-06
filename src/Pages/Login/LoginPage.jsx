@@ -79,10 +79,10 @@ function LoginPage() {
 
                 <form id="ownerSignup" action="" style={{ marginTop: "50px" }}>
                   <div className="form-group mb-3" style={{ width: "100%" }}>
-                    <div className="text-left loginWidth">
+                    <div className="text-left loginWidth d-flex flex-column justify-content-center align-item-center">
                       <img
                         src="/image/email.png"
-                        style={{ width: "25px", paddingBottom: "5px" }}
+                        // style={{ width: "25px", paddingBottom: "5px" }}
                       />
                       <input
                         type="text"
@@ -100,7 +100,7 @@ function LoginPage() {
                       <div className=" text-left loginWidth">
                         <img
                           src="/image/password.png"
-                          style={{ width: "25px", paddingBottom: "5px" }}
+                          // style={{ width: "25px", paddingBottom: "5px" }}
                         />
                         <input
                           type={visible ? "text" : "password"}
@@ -119,7 +119,7 @@ function LoginPage() {
                         ) : (
                           <VisibilityOffIcon
                             ilityOffIcon
-                            style={{ color: "#909090" }}
+                            style={{ color: "#909090"}}
                             onClick={() => setVisible(true)}
                           />
                         )}
@@ -165,13 +165,13 @@ function LoginPage() {
                       </button>
                     </div>
 
-                    <div className="social-icons mt-5" style={{ overflow: 'hidden' }}>
+                    <div className="social-icons" style={{ overflow: 'hidden' }}>
                       <div className="row">
                         <div
                           className="googleButton"
                           style={{ padding: "0px 50px" }}
                         >
-                          <button className="w-100 lognwithbutton" style={{ border: "2px #5E17EB solid" }}>
+                          <button className="w-100 logn__withbutton" style={{ border: "2px #5E17EB solid" }}>
                             <img
                               src="/icons/devicon_google.svg"
                               alt=""
@@ -191,7 +191,7 @@ function LoginPage() {
                         Don’t have an account? <a href="#!" style={{ color: '#5E17EB' }}>Sign up now</a>
                       </p>
                     </div>
-                </div>
+                  </div>
                 </form>
               </div>
             </div>

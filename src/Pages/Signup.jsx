@@ -117,10 +117,10 @@ const Signup = () => {
             </div>
 
             <div className="text-center signupParentDiv">
-              <span className="signupText">
+              <p className="signupText">
                 A House is made of bricks and beams.A Home is made of hope and
                 dreams. We’ll help you find your home.
-              </span>
+              </p>
             </div>
 
             <div className="d-flex flex-column align-items-end">
@@ -131,8 +131,8 @@ const Signup = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="createAccountDiv"></div>
+          <div className="col-lg-6 createAccountDiv">
+            {/* <div className="createAccountDiv"></div> */}
             <h2
               className="text-center"
               style={{
@@ -206,10 +206,10 @@ const Signup = () => {
               ) : (
                 <>
                   <form id="ownerSignup" action="">
-                    <div className="form-group mb-3" style={{ width: "100%" }}>
+                    <div className="form__sign__up form-group mb-3" style={{ width: "100%" }}>
                       <div className="field text-left">
-                      
-                        <input 
+
+                        <input
                           type="text"
                           className="emailInput"
                           name="name"
@@ -218,13 +218,13 @@ const Signup = () => {
                           required
                           placeholder="Full Name"
                         />
-                          <img className="iconsSignupPosition" src="/icons/avatar.svg" />
+                        <img className="iconsSignupPosition" src="/icons/avatar.svg" />
                         <div className="error">{formErrors.name}</div>
                       </div>
                     </div>
-                    <div className="form-group mb-3" style={{ width: "100%" }}>
+                    <div className="form__sign__up form-group mb-3" style={{ width: "100%" }}>
                       <div className="field text-left">
-                       
+
                         <input
                           type="text"
                           className="emailInput"
@@ -234,13 +234,13 @@ const Signup = () => {
                           onChange={handleInputChange}
                           required
                         />
-                         <img className="iconsSignupPosition" src="/icons/email.svg" />
+                        <img className="iconsSignupPosition" src="/icons/email.svg" />
                         <div className="error">{formErrors.email}</div>
                       </div>
                     </div>
-                    <div className="form-group mb-3" style={{ width: "100%" }}>
+                    <div className="form__sign__up form-group mb-3" style={{ width: "100%" }}>
                       <div className="field text-left">
-                      <input
+                        <input
                           type="tel"
                           id="phone"
                           name="phone"
@@ -252,13 +252,13 @@ const Signup = () => {
                           placeholder="Phone Number"
                         />
                         <img className="iconsSignupPosition" src="/icons/phone.svg" />
-                       
+
                         <div className="error">{formErrors.phone}</div>
                       </div>
                     </div>
-                    <div className="form-group mb-3" style={{ width: "100%" }}>
+                    <div className="form__sign__up form-group mb-3" style={{ width: "100%" }}>
                       <div className="field text-left">
-                      
+
                         <input
                           type={visible ? "text" : "password"}
                           className="emailInput"
@@ -270,48 +270,28 @@ const Signup = () => {
                         />
                         {visible ? (
                           <VisibilityIcon
-                            style={{ color: "#909090" }}
+                            style={{ color: "#909090", position: "absolute", bottom: "140px" }}
                             onClick={() => setVisible(false)}
                           />
                         ) : (
                           <VisibilityOffIcon
                             ilityOffIcon
-                            style={{ color: "#909090" }}
+                            style={{ color: "#909090", position: "absolute", bottom: "140px" }}
                             onClick={() => setVisible(true)}
                           />
                         )}
-                          <img className="iconsSignupPosition" src="/icons/password.svg" />
+                        <img className="iconsSignupPosition" src="/icons/password.svg" />
                       </div>
                     </div>
                     <div className="col-12">
                       <div className="form-check">
-                        <ul
-                          className="list-inline"
-                          style={{ marginRight: "60px" }}
-                        >
-                          <li className="list-inline-item">
-                            <input
-                              className="emailInput"
-                              type="checkbox"
-                              name="agree"
-                              checked={formData.agree}
-                              onChange={handleInputChange}
-                            />
-                          </li>
-                          <li className="list-inline-item">
-                            <label
-                              className="form-check-label"
-                              htmlFor="invalidCheck"
-                            >
-                              By signing up I agree to{" "}
-                              <span
-                                style={{ color: "#5E17EB", fontWeight: "500" }}
-                              >
-                                Terms & Conditions!
-                              </span>
-                            </label>
-                          </li>
-                        </ul>
+                        <div className="email__checkbox">
+                          <input className="form-check-input" type="checkbox" defaultValue id="flexCheckDefault" />
+                          <label className="form-check-label" htmlFor="flexCheckDefault">
+                          By signing up I agree to <span>Terms & Conditions!</span>
+                          </label>
+                        </div>
+
                       </div>
                     </div>
                     <div className="col-12">
@@ -323,7 +303,7 @@ const Signup = () => {
                       </button>
                     </div>
                     <div className="col-12" style={{ padding: "10px 0px" }}>
-                      <span>
+                      <span className="already__acc">
                         Already have an account?
                         <Link
                           to="/login"
