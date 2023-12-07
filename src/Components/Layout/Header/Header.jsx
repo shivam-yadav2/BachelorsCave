@@ -67,13 +67,12 @@ const Header = () => {
     <>
       <header>
         <nav
-          className={`${
-            active === true
-              ? "navbar fixed-top active navbar-expand-lg navbar-sticky"
-              : "navbar navbar-expand-lg navbar-sticky"
-          }`}
+          className={`${active === true
+            ? "navbar fixed-top active navbar-expand-lg navbar-sticky"
+            : "navbar navbar-expand-lg navbar-sticky"
+            }`}
         >
-          <div className="container">
+          <div className="container-fluid">
             <a className="navbar-brand logoName" href="#">
               {active === true ? (
                 <>
@@ -142,21 +141,21 @@ const Header = () => {
                     style={
                       active === true
                         ? {
-                            color: "#000",
-                            textTransform: "none",
-                            fontWeight: "bold",
-                          }
+                          color: "#000",
+                          textTransform: "none",
+                          fontWeight: "bold",
+                        }
                         : {
-                            color: "#fff",
-                            textTransform: "none",
-                            fontWeight: "bold",
-                          }
+                          color: "#fff",
+                          textTransform: "none",
+                          fontWeight: "bold",
+                        }
                     }
                   >
                     I’m an owner <KeyboardArrowDownIcon />
                   </a>
                   <div
-                    className="dropdown-menu"
+                    className="dropdown-menu dropdown__menu"
                     aria-labelledby="navbarDropdown"
                   >
                     <Link to={'/listing'} className="dropdown-item">
@@ -179,17 +178,17 @@ const Header = () => {
                       style={
                         active
                           ? {
-                              color: "#000",
-                              borderColor: "#000",
-                              padding: "0px 15px",
-                              textTransform: "capitalize",
-                            }
+                            color: "#000",
+                            borderColor: "#000",
+                            padding: "0px 15px",
+                            textTransform: "capitalize",
+                          }
                           : {
-                              color: "#fff",
-                              borderColor: "#fff",
-                              padding: "0px 15px",
-                              textTransform: "capitalize",
-                            }
+                            color: "#fff",
+                            borderColor: "#fff",
+                            padding: "0px 15px",
+                            textTransform: "capitalize",
+                          }
                       }
                     >
                       Register
@@ -202,21 +201,21 @@ const Header = () => {
         </nav>
       </header>
       <section className="banner-section">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-md-8">
-              <div className="row">
-                <div className="col-md-8 banner-heading">
-                  <div className="hero-inner" />
+              <div className="row r">
+                <div className="col-md-8 banner-heading hero__inne">
+                  <div className="hero-inner " />
 
                   <p className="discover_a">
-                    Discover a place you will love to live
+                    Discover a place <br /> you will love to live
                   </p>
-                  <span>
+                  <p className="hero__description" >
                     Connect with more than 75K renters looking for
-                    <br /> new homes using our comprehensive marketing <br />
+                    new homes using our comprehensive marketing
                     platform.
-                  </span>
+                  </p>
                 </div>
                 <div className="col-md-4">
                   <img src="/image/ellipse.png" className="ellipse" alt="" />
@@ -224,9 +223,9 @@ const Header = () => {
               </div>
               <div className="row">
                 <div className="col-md-8">
-                  <form className="search-form">
+                  <form className="search-form container">
                     <div className="row">
-                      <div className="col-md-3 line-left">
+                      <div className="col-md-3 col-6 line-left">
                         <select name="" className="select-city">
                           <option value="">City</option>
                           <option value="">Lucknow</option>
@@ -234,7 +233,7 @@ const Header = () => {
                           <option value="">Kanpur</option>
                         </select>
                       </div>
-                      <div className="col-md-9">
+                      <div className="col-md-9 col-6">
                         <input
                           type="text"
                           className="colloge-name"
@@ -245,7 +244,7 @@ const Header = () => {
                         />
                       </div>
                       <hr style={{ marginTop: "0px", marginBottom: "0px" }} />
-                      <div className="col-md-3 bullect-point">
+                      <div className="col-md-3 col-6 bullect-point">
                         <input className="form-check-input" type="radio" />
                         <label
                           className="form-check-label full_house"
@@ -254,7 +253,7 @@ const Header = () => {
                           Full House
                         </label>
                       </div>
-                      <div className="col-md-3 line-left bullect-point">
+                      <div className="col-md-3 col-6 line-left bullect-point">
                         <input className="form-check-input" type="radio" />
                         <label
                           className="form-check-label full_house"
@@ -263,7 +262,7 @@ const Header = () => {
                           Pg/Hostel
                         </label>
                       </div>
-                      <div className="col-md-3 line-left">
+                      <div className="col-md-3 col-6 line-left">
                         <select name="" className="budget">
                           <option value="">₹ Budget</option>
                           <option value="Lucknow">Lucknow</option>
@@ -271,7 +270,7 @@ const Header = () => {
                           <option value="">Kanpur</option>
                         </select>
                       </div>
-                      <div className="col-md-3">
+                      <div className="col-md-3 col-6">
                         <select name="" className="budget">
                           <option value="">BHK Types</option>
                           <option value="">Lucknow</option>
@@ -283,29 +282,33 @@ const Header = () => {
                   </form>
                 </div>
                 <div className="col-md-4">
-                  <form className="d-flex box-search">
-                    <input
+                  <button className="d-flex box-search  me-2" type="search" aria-label="Search">
+                    {/* <input
                       className="form-control me-2"
                       type="search"
                       placeholder="Search"
                       aria-label="Search"
-                    />
-                  </form>
+                    /> */}Search
+                  </button>
                 </div>
               </div>
               <div className="row counter-row">
-                <div className="col-md-6">
-                  <div className="counter-item">
-                    <p>
-                      {count1} + <span>Property Ready</span>
-                    </p>
+                <div className="col-md-6 col-6 vertical">
+                  <div className="counter-item vertical__1  d-flex ">
+                    <h1 >
+                      {count1}+ 
+                    </h1>
+                    <h4>Property <br /> Ready</h4>
                   </div>
                 </div>
-                <div className="col-md-6">
-                  <div className="counter-item">
-                    <p>
-                      {count2} + <span>Happy Customers</span>
-                    </p>
+
+                <div className="col-md-6 col-6">
+                  
+                  <div className="counter-item d-flex">
+                    <h1>
+                      {count2}+ 
+                      </h1>
+                      <h4>Happy <br /> Customers</h4>
                   </div>
                 </div>
               </div>
