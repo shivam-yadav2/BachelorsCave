@@ -98,7 +98,7 @@ const Header = () => {
 
                   <img
                     decoding="async"
-                    src="/icons/brand.svg"
+                    src="/icons/brand2.svg"
                     className="img-fluid navbar-brand-sticky"
                   />
                 </>
@@ -113,6 +113,7 @@ const Header = () => {
               aria-controls="navbarText"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              
             >
               <span className="ti-align-justify navbar-toggler-icon" />
             </button>
@@ -125,7 +126,7 @@ const Header = () => {
                     href="#home"
                   >
                     <form action="" className="">
-                      <img src="/icons/vector1.svg" alt="" />
+                      <img src="/image/Vector.png" alt="" />
                     </form>
                   </a>
                 </li>
@@ -146,7 +147,7 @@ const Header = () => {
                           fontWeight: "bold",
                         }
                         : {
-                          color: "#fff",
+                          color: "#000",
                           textTransform: "none",
                           fontWeight: "bold",
                         }
@@ -184,8 +185,8 @@ const Header = () => {
                             textTransform: "capitalize",
                           }
                           : {
-                            color: "#fff",
-                            borderColor: "#fff",
+                            color: "#000",
+                            borderColor: "#000",
                             padding: "0px 15px",
                             textTransform: "capitalize",
                           }
@@ -209,7 +210,7 @@ const Header = () => {
                   <div className="hero-inner " />
 
                   <p className="discover_a">
-                    Discover a place <br /> you will love to live
+                    <span>Discover</span> a place <br /> you will love to live
                   </p>
                   <p className="hero__description" >
                     Connect with more than 75K renters looking for

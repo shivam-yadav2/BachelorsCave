@@ -2,12 +2,15 @@ import React from 'react';
 import { useState } from "react";
 
 import './Profile.css'
+import SubNavbar from '../../Components/Layout/Header/SubNavbar';
+import Footer from '../../Components/Footer';
 
 function Profile() {
   const [nameChange, setNameChange] = useState("Navneet Yadav");
   const handleClickName = () => { };
   return (
     <>
+      <SubNavbar />
       <section className="container account">
         <h3 className="account__title">Manage my account</h3>
         <div className="booking d-flex account__detail ">
@@ -207,6 +210,7 @@ function Profile() {
           </div>
         </div>
       </section>
+      <Footer/>
 
 
     </>

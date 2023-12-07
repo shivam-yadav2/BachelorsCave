@@ -108,7 +108,7 @@ const ProductDetails = () => {
             </ul>
           </div>
           <div className="col-lg-6">
-            <ul className="text-center list-inline">
+            <ul className="text-center list-inline d-flex align-items-end justify-content-end">
               <li className="list-inline-item">
                 <FavoriteBorderIcon />
               </li>

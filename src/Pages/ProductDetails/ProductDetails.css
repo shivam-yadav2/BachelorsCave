@@ -21,15 +21,23 @@
   background: #5e17eb;
   font-size: 18px;
   padding: 15px 50px;
+  font-weight: 600;
   color: #fff;
   border-radius: 5px;
 }
+
+.ownerDetails span{
+font-weight: 600;
+}
+
 .vistDesgin {
   outline: none;
   border: none;
   padding: 13px 50px;
   border: 1px solid #9b9b9b;
   border-radius: 5px;
+  background-color: #fff;
+  font-weight: 600;
   font-size: 18px;
   color: #5e17eb;
 }
@@ -139,6 +147,7 @@
 }
 
 .fp__offer_item_single {
+  width: 92%;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   position: relative;
   background: #fff;

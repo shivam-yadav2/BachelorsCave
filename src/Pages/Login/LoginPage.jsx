@@ -82,7 +82,7 @@ function LoginPage() {
                     <div className="text-left loginWidth d-flex flex-column justify-content-center align-item-center">
                       <img
                         src="/image/email.png"
-                        // style={{ width: "25px", paddingBottom: "5px" }}
+                      // style={{ width: "25px", paddingBottom: "5px" }}
                       />
                       <input
                         type="text"
@@ -100,7 +100,7 @@ function LoginPage() {
                       <div className=" text-left loginWidth">
                         <img
                           src="/image/password.png"
-                          // style={{ width: "25px", paddingBottom: "5px" }}
+                        // style={{ width: "25px", paddingBottom: "5px" }}
                         />
                         <input
                           type={visible ? "text" : "password"}
@@ -113,13 +113,13 @@ function LoginPage() {
                         />
                         {visible ? (
                           <VisibilityIcon
-                            style={{ color: "#909090" }}
+                            style={{ color: "#909090", position: "absolute", bottom: '5px', right:'0px' }}
                             onClick={() => setVisible(false)}
                           />
                         ) : (
                           <VisibilityOffIcon
-                            ilityOffIcon
-                            style={{ color: "#909090"}}
+
+                            style={{ color: "#909090", position: "absolute", bottom: '5px',right:'0px' }}
                             onClick={() => setVisible(true)}
                           />
                         )}

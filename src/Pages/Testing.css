@@ -10,7 +10,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 0px 25px;
-  background: #000;
+  background: #fff;
 }
 nav.active {
   background: #fff;
@@ -46,6 +46,9 @@ nav .logo {
 nav.active .logoName {
   color: #000;
 }
+.logoName img {
+  padding-right: 10px;
+}
 .imanower {
   color: #fff;
 }
@@ -55,7 +58,7 @@ nav.avtive #navbarDropdown a {
 nav .logoName {
   text-decoration: none;
   font-size: 20px;
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   font-weight: 800;

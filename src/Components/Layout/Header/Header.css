@@ -15,6 +15,17 @@
   max-width: 36rem;
 }
 
+.discover_a span{
+  font-size: 3.5rem;
+  font-family: "Inter";
+  font-weight: 900;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  font-weight: 700;
+
+  max-width: 36rem;
+}
+
 .hero__description {
   color: #fff;
   font-size: 1.125rem;
@@ -194,6 +205,13 @@ span {
 @media screen and (max-width : 322px) {
   .discover_a {
     font-size: 2.25rem;
+    text-align: center;
+    max-width: 36rem;
+    font-weight: 700;
+
+  }
+  .discover_a span{
+    font-size: 2.45rem;
     text-align: center;
     max-width: 36rem;
     font-weight: 700;

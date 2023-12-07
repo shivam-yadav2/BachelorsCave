@@ -8,10 +8,10 @@ function FindUniversity() {
         <div className="container-fluid">
           <div className="row">
             <div className="mt-5">
-              <h1 className="text-center">
-                Find room near your university/college
+              <h1 className="text-center university__head">
+                Find room near your university/college!
               </h1>
-              <p className="text-center">
+              <p className="text-center ">
                 Discover Your Ideal Home: Find the Perfect Room Near Your
                 University
               </p>
