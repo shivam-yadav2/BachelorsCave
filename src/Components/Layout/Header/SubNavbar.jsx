@@ -58,7 +58,7 @@ const SubNavbar = () => {
               <div class="user d-flex justify-content-start align-items-center">
                 <a href="#">
                   <img
-                    src="img/account-circle.png"
+                    src="image/account-circle.png"
                     class="user__icon"
                     alt="user account"
                   />
@@ -93,7 +93,7 @@ const SubNavbar = () => {
               <a href="#" class="up__plan">Upgrade Plan</a>
               <button class="nav__register">Register</button>
             </div>
-            <div className="collapse navbar-collapse" id="navbarText">
+            {/* <div className="collapse navbar-collapse" id="navbarText">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item m-0">
                   <a
@@ -173,7 +173,7 @@ const SubNavbar = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </nav>
       </header>

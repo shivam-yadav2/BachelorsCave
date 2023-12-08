@@ -6,6 +6,7 @@
   line-height: 43.73px;
   word-wrap: break-word;
 }
+
 /* .similarPropertiesSticky{
     position: sticky;
     top: 15px;
@@ -15,6 +16,7 @@
   color: #5e17eb !important;
   font-weight: 600;
 }
+
 .ownerDetails {
   outline: none;
   border: none;
@@ -22,12 +24,13 @@
   font-size: 18px;
   padding: 15px 50px;
   font-weight: 600;
-  color: #fff;
+  color: #fff !important;
   border-radius: 5px;
 }
 
-.ownerDetails span{
-font-weight: 600;
+.ownerDetails span {
+  font-weight: 600;
+  color: #fff !important;
 }
 
 .vistDesgin {
@@ -41,31 +44,38 @@ font-weight: 600;
   font-size: 18px;
   color: #5e17eb;
 }
+
 .commonDetails {
   padding: 0px 80px;
   font-size: 20px;
   font-weight: 600;
   color: #000;
 }
+
 .commonDetailsICons {
   padding: 10px 80px;
 }
+
 .commonDetailsICons span {
   font-size: 20px;
   color: #000;
 }
+
 .amentitiesIcons {
   padding: 20px;
   border: 1px solid #000;
   text-align: center;
   border-radius: 5px;
 }
+
 .amentitiesIcons img {
   padding-top: 20px;
 }
+
 .service-section {
   padding: 40px 10px;
 }
+
 .service-section .btn {
   float: right;
   position: relative;
@@ -75,6 +85,7 @@ font-weight: 600;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
 }
+
 .service-item {
   position: relative;
   border-radius: 14.93px;
@@ -84,6 +95,7 @@ font-weight: 600;
   width: 100%;
   color: #696969;
 }
+
 .service-item .button-group {
   position: absolute;
   top: 50px;
@@ -96,6 +108,7 @@ font-weight: 600;
   font-weight: 500;
   color: rgba(222, 222, 222, 1);
 }
+
 .service-item .button-group .for-boys {
   font-size: 7.52px;
   font-family: "Inter";
@@ -105,22 +118,27 @@ font-weight: 600;
   background-color: #fff !important;
   margin-left: 10px;
 }
+
 .prime_stay span {
   float: right;
 }
+
 .single-room-with {
   letter-spacing: -0.02em;
   line-height: 132.52%;
   font-weight: 500;
 }
+
 .service-item .content {
   padding: 12px;
 }
+
 .image-4-icon {
   width: 19px;
   height: 19px;
   object-fit: cover;
 }
+
 .contact-owner {
   letter-spacing: -0.02em;
   line-height: 132.52%;
@@ -133,6 +151,7 @@ font-weight: 600;
   background-color: #5e17eb;
   border-color: #5e17eb;
 }
+
 .prime_stay {
   font-size: 18px;
   font-family: "Inter";
@@ -141,6 +160,7 @@ font-weight: 600;
   width: 100%;
   height: 19px;
 }
+
 .kara-eads-l7ewhkq1b2s-unsplash-icon1 {
   border-radius: 15px 15px 0px 0px;
   height: 210px;
@@ -161,6 +181,7 @@ font-weight: 600;
   padding: 0 !important;
   border: 1px solid #d4d4d4;
 }
+
 .fp__offer_item_single .img {
   width: 100%;
 }
@@ -177,6 +198,7 @@ font-weight: 600;
   font-weight: 500;
   color: rgba(222, 222, 222, 1);
 }
+
 .fp__offer_item_single .img .button-group .for-boys {
   font-size: 7.52px;
   font-family: "Inter";
@@ -190,6 +212,7 @@ font-weight: 600;
   width: 100%;
   padding: 16px 30px;
 }
+
 .fp__offer_item_single .text .btn {
   float: right;
   font-size: 12px;
@@ -200,6 +223,7 @@ font-weight: 600;
   font-weight: 500;
   color: rgba(222, 222, 222, 1);
 }
+
 .fp__offer_item_single .text h3 {
   font-size: 26.87px;
   font-family: "Inter";
@@ -239,12 +263,15 @@ font-weight: 600;
   font-weight: 500;
   color: rgba(105, 105, 105, 1);
 }
+
 .similarProperty img {
   height: 220px;
 }
+
 .img__btn {
   position: absolute;
 }
+
 .img__btn {
   color: #5e17eb;
   z-index: 10;
@@ -263,16 +290,16 @@ font-weight: 600;
 .afterBg {
   position: relative;
 }
+
 .afterBg:after {
-  background-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.367) 30%,
-    #1b1b1b85
-  );
+  background-image: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.367) 30%,
+      #1b1b1b85);
   content: "";
   inset: 0;
   position: absolute;
 }
+
 /* MODAL */
 .modal__1 {
   padding: 17px 30px;
@@ -495,7 +522,7 @@ font-weight: 600;
   letter-spacing: -0.595px;
 }
 
-.right__modal__btn{
+.right__modal__btn {
   margin-bottom: 15px;
 }
 
@@ -583,4 +610,40 @@ font-weight: 600;
   flex-shrink: 0;
   border-radius: 6px;
   background: #6155DF;
+}
+
+.product__img__btn-1 {
+  color: #696969;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132.523%;
+  /* 31.805px */
+  letter-spacing: -0.84px;
+  width: 110px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  outline: none;
+  border: none;
+}
+
+.product__img__btn-2 {
+  color: #DEDEDE;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132.523%;
+  /* 31.805px */
+  letter-spacing: -0.84px;
+  width: 110px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #5E17EB;
+  outline: none;
+  border: none;
 }

@@ -6,6 +6,7 @@ import HandPicked from '../Components/Layout/HandPicked/HandPicked'
 import FooterSection from '../Components/Layout/FooterSection'
 import Footer from '../Components/Footer'
 import FindUniversity from '../Components/Layout/finduniversity/FindUniversity'
+import Specification from '../Components/Layout/Specification/Specification'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <FindUniversity/>
             <Featured />
             <HandPicked />
+            <Specification/>
             <FooterSection />
             <Footer />
 
