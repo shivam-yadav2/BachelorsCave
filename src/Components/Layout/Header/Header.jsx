@@ -72,7 +72,7 @@ const Header = () => {
             : "navbar navbar-expand-lg navbar-sticky"
             }`}
         >
-          <div className="container-fluid">
+          <div className="container-fluid nav__padding">
             <a className="navbar-brand logoName" href="#">
               {active === true ? (
                 <>

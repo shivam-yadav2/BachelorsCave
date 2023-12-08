@@ -5,7 +5,7 @@ const Specification = () => {
     return (
         <>
             <div className="header__about">
-                <div className="d-flex header__about__head align-items-start  justify-content-start ">
+                <div className="d-flex header__about__head  align-items-start  justify-content-start ">
                     <div className=" header__about__main">
                         <h1 className="text-left  ">Rentals made efficient and
                             smooth with <span className="text-orangeY">Bachelors Cave</span></h1>

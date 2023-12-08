@@ -193,6 +193,10 @@ span {
   }
 }
 
+.nav__padding{
+  padding: 0;
+}
+
 .dropdown__menu {
   position: absolute;
   top: 20px;
