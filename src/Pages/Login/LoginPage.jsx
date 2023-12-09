@@ -52,7 +52,7 @@ function LoginPage() {
       <section className="loginSection">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-12">
               <div className="logoLogin text-center">
                 <img src="/image/brand (1).png" alt="" width={150} />
                 <br />
@@ -68,11 +68,11 @@ function LoginPage() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-12">
               <div className="loginForm">
                 <div className="row">
                   <h1 className="loginText">Login</h1>
-                  <p style={{ paddingLeft: "50px" }}>
+                  <p style={{ paddingLeft: "50px" }} className="login__para">
                     Enter your credentials and get ready to explore
                   </p>
                 </div>
@@ -166,7 +166,7 @@ function LoginPage() {
                     </div>
 
                     <div className="social-icons" style={{ overflow: 'hidden' }}>
-                      <div className="row">
+                      {/* <div className="row"> */}
                         <div
                           className="googleButton"
                           style={{ padding: "0px 50px" }}
@@ -182,7 +182,7 @@ function LoginPage() {
                             </span>
                           </button>
                         </div>
-                      </div>
+                      {/* </div> */}
                     </div>
 
                     {/* Register buttons */}

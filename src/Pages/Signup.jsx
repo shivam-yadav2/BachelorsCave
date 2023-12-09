@@ -97,7 +97,7 @@ const Signup = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 signupLeft">
-            <div className="text-left" style={{ paddingTop: "20px" }}>
+            <div className="text-left signup__head" style={{ paddingTop: "20px" }}>
               <a
                 className="navbar-brand d-flex"
                 href="#"
@@ -284,7 +284,7 @@ const Signup = () => {
                       </div>
                     </div>
                     <div className="col-12">
-                      <div className="form-check">
+                      <div className="form-check form__check">
                         <div className="email__checkbox">
                           <input className="form-check-input" type="checkbox" defaultValue id="flexCheckDefault" />
                           <label className="form-check-label" htmlFor="flexCheckDefault">
@@ -302,7 +302,7 @@ const Signup = () => {
                         <span className="text-center">Create Account</span>
                       </button>
                     </div>
-                    <div className="col-12" style={{ padding: "10px 0px" }}>
+                    <div className="col-12 signup__lower">
                       <span className="already__acc">
                         Already have an account?
                         <Link
