@@ -6,7 +6,7 @@ const FooterSection = () => {
       <section id="footerSection">
         <div className="container">
           <div className="row footer__container">
-            <div className="col-lg-4">
+            <div className="col-lg-4 mt-3">
               <div className="footerleft_text">
                 <h2>Are you a home owner?</h2>
               </div>
@@ -14,7 +14,7 @@ const FooterSection = () => {
                 <a href="">List Property</a>
               </span>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 mt-3 ">
               <div className="footerleft_text">
                 <h2>Find verified tenants</h2>
               </div>
@@ -23,7 +23,7 @@ const FooterSection = () => {
                 managing Paperwork, we do it all
               </p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 mt-3">
               <div className="footerleft_text">
                 <h2>Get rent on time</h2>
               </div>

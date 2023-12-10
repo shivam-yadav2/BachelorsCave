@@ -16,13 +16,13 @@ export const FeaturedContent = (props) => {
 
         <div className="card-body">
           <div className="row">
-            <div className="col-lg-9">
+            <div className="col-lg-9 col-md-8">
               <Link to="/product-details">
                 <h6 className="card-title">{title}</h6>
                 <div className="card-text">{description}</div>
               </Link>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-4 d-flex flex-lg-column">
               <span className="rating">4.7</span>{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export const FeaturedContent = (props) => {
                 />
               </svg>
             </div>
-            <div className="col-lg-9">
+            <div className="col-lg-9 col-md-8 col-7 mt-2">
               <div className="row">
                 <ul
                   className="list-inline"
@@ -83,7 +83,7 @@ export const FeaturedContent = (props) => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-4 col-5 mt-2">
               <span className="cardPrice">₹ 6,999</span>
             </div>
           </div>

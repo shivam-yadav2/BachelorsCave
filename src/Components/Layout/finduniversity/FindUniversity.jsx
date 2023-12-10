@@ -16,7 +16,7 @@ function FindUniversity() {
                 University
               </p>
 
-              <div className="mt-12  grid xl:grid-cols-5 gap-3 md:grid-cols-4 grid-cols-2 ">
+              <div className="mt-12  grid xl:grid-cols-5 gap-3 md:grid-cols-3 grid-cols-2  ">
                 <div className="relative rounded-lg shadow-lg overflow-hidden  xl:w-64 xl:h-32 cursor-pointer isolate img-university border-1 border-deepBlue group ">
                   <img
                     src="/image/university.webp"

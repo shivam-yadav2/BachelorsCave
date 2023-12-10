@@ -1,29 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+*{
+  font-family: 'Inter';
+}
+
 .banner-section {
   position: relative;
   background-color: #100c08;
   padding: 50px 0px;
+  padding-bottom: 125px;
 }
 
 .discover_a {
+  letter-spacing: -1px;
   font-size: 3rem;
   font-family: "Inter";
-  font-weight: 900;
+  font-weight: bolder;
   color: rgba(255, 255, 255, 1);
   text-align: left;
-  font-weight: 700;
-
-  max-width: 36rem;
+  /* font-weight: 700; */
+  line-height: 1;
+  max-width: 28rem;
+  margin: 45px 0px 0px 0px;
 }
 
-.discover_a span{
-  font-size: 3.5rem;
+.discover_a span {
+  font-size: 3rem;
+  line-height: 1;
   font-family: "Inter";
   font-weight: 900;
   color: rgba(255, 255, 255, 1);
   text-align: left;
   font-weight: 700;
 
-  max-width: 36rem;
+  max-width: 28rem;
 }
 
 .hero__description {
@@ -31,6 +43,8 @@
   font-size: 1.125rem;
   line-height: 1.75rem;
   max-width: 28rem;
+  margin-bottom: 4rem;
+  margin: 25px 0px 0px 0px;
 }
 
 .banner-heading {
@@ -44,12 +58,12 @@
 
 .ellipse {
   position: absolute;
-  top: 150px;
+  top: 185px;
   left: 385px;
-  width: 88px;
-  height: 88px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
-  z-index: 1;
+  z-index: -1;
 }
 
 span {
@@ -68,7 +82,7 @@ span {
   font-size: 15.5px;
   color: #838383;
   padding: 0px 10px;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .full_house {
@@ -131,7 +145,7 @@ span {
 
 .box-search {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 90px;
   border-radius: 18.01px;
   color: #ffffff;
   background-color: #5e17eb;
@@ -163,6 +177,7 @@ span {
 
 .vertical__1 {
   border-right: 3px solid white;
+  padding-right: 25px;
 }
 
 .counter-item h1 {
@@ -193,7 +208,7 @@ span {
   }
 }
 
-.nav__padding{
+.nav__padding {
   padding: 0;
 }
 
@@ -214,7 +229,8 @@ span {
     font-weight: 700;
 
   }
-  .discover_a span{
+
+  .discover_a span {
     font-size: 2.45rem;
     text-align: center;
     max-width: 36rem;
@@ -224,7 +240,7 @@ span {
 
   .ellipse {
     position: absolute;
-    top: 190px;
+    top: 225px;
     left: 135px;
     width: 66px;
     height: 66px;
@@ -238,7 +254,7 @@ span {
     text-align: center;
     font-size: .875rem;
     line-height: 1rem;
-    margin-top: 20px;
+    margin-top: 40px;
     font-weight: 500;
   }
 
@@ -287,8 +303,141 @@ span {
     border-right: 3px solid white;
     padding-right: 20px;
   }
-  
+
   .vertical__1 {
     border-right: none;
   }
+}
+
+@media screen and (max-width:576px) {
+
+
+
+  .discover_a {
+    font-size: 2.25rem;
+    text-align: center;
+    max-width: 36rem;
+    font-weight: 700;
+
+  }
+
+  .discover_a span {
+    font-size: 2.45rem;
+    text-align: center;
+    max-width: 36rem;
+    font-weight: 700;
+
+  }
+
+  .ellipse {
+    position: absolute;
+    top: 225px;
+    left: 135px;
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .hero__description {
+    align-items: center;
+    max-width: 28rem;
+    text-align: center;
+    font-size: .875rem;
+    line-height: 1rem;
+    margin-top: 40px;
+    font-weight: 500;
+  }
+
+  .box-search {
+    text-align: center;
+    padding-left: 125px;
+    border-radius: 18.01px;
+    background-color: #5e17eb;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 8px 118px;
+  }
+
+  .counter-item {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .counter-item h4 {
+    font-size: .75rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+  }
+
+  .counter-item h1 {
+    font-size: 2rem;
+    font-family: "Inter";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .counter-row {
+    margin-top: 50px;
+    width: 108%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .vertical {
+    border-right: 3px solid white;
+    padding-right: 20px;
+  }
+
+  .vertical__1 {
+    border-right: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  .discover_a {
+    margin: 45px 0px 0px 151px;
+  }
+
+  .ellipse {
+    left: 535px;
+  }
+
+  .hero__description {
+    max-width: 25rem;
+    text-align: center;
+    margin: 36px 0px 0px 151px;
+  }
+
+  .box-search {
+    margin-left: 49px;
+  }
+
+  .counter-row {
+    margin-top: 50px;
+    margin-left: 144px;
+  }
+
+  .counter-item h1 {
+    font-size: 1.875rem;
+    font-family: "Inter";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .counter-item h4 {
+    font-size: .75rem;
+  }
+
+  .hero__img{
+    margin-left: 192px;
+  }
+
+
 }

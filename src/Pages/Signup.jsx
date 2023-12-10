@@ -270,13 +270,23 @@ const Signup = () => {
                         />
                         {visible ? (
                           <VisibilityIcon
-                            style={{ color: "#909090", position: "absolute", bottom: "140px" }}
+                            style={{
+                              color: "#909090",
+                              position: "relative",
+                              bottom: "0px",
+                              top: "40px",
+                            }}
                             onClick={() => setVisible(false)}
                           />
                         ) : (
                           <VisibilityOffIcon
                             ilityOffIcon
-                            style={{ color: "#909090", position: "absolute", bottom: "140px" }}
+                            style={{
+                              color: "#909090",
+                              position: "relative",
+                              bottom: "0px",
+                              top: "40px",
+                            }}
                             onClick={() => setVisible(true)}
                           />
                         )}
@@ -288,7 +298,7 @@ const Signup = () => {
                         <div className="email__checkbox">
                           <input className="form-check-input" type="checkbox" defaultValue id="flexCheckDefault" />
                           <label className="form-check-label" htmlFor="flexCheckDefault">
-                          By signing up I agree to <span>Terms & Conditions!</span>
+                            By signing up I agree to <span>Terms & Conditions!</span>
                           </label>
                         </div>
 

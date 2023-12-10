@@ -203,3 +203,15 @@
   line-height: 132.523%; /* 24.937px */
   letter-spacing: -0.47px;
 }
+
+@media screen and (max-width:322px){
+  .post-card .card img {
+    height: 148.328px;
+}
+}
+
+@media (min-width: 768px) and (max-width:992px){
+  .post-card .card img {
+    height: 166.328px;
+}
+}

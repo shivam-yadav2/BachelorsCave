@@ -86,10 +86,10 @@ nav .innerRightSide {
 }
 .hero-inner {
   top: 55px;
-  left: 30px;
+  left: 200px;
   background-color: #fff;
   filter: blur(60px);
-  width: 60px;
+  width: 125px;
   height: 60px;
   position: relative;
 }
@@ -261,4 +261,16 @@ label {
   background-color: #fff;
   border: none;
   outline: none;
+}
+
+@media  screen and (max-width:322px) {
+  .hero-inner {
+    top: 55px;
+    left: 93px;
+    background-color: #fff;
+    filter: blur(60px);
+    width: 125px;
+    height: 60px;
+    position: relative;
+}
 }

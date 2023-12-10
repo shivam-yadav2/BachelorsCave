@@ -201,17 +201,20 @@ const Header = () => {
           </div>
         </nav>
       </header>
-      <section className="banner-section">
+      <section className="banner-section w-100">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-8">
-              <div className="row r">
-                <div className="col-md-8 banner-heading hero__inne">
+            <div className="col-md-12 col-lg-8 col-sm-12">
+              <div className="row ">
+                <div className="col-md-12 col-lg-8 banner-heading hero__inne">
                   <div className="hero-inner " />
 
-                  <p className="discover_a">
-                    <span>Discover</span> a place <br /> you will love to live
-                  </p>
+                  <h1 className="discover_a">
+                    Discover a place  you will love to
+                    <span> live
+                      <span><img src="/image/ellipse.png" className="ellipse" alt="" /></span>
+                    </span>
+                  </h1>
                   <p className="hero__description" >
                     Connect with more than 75K renters looking for
                     new homes using our comprehensive marketing
@@ -219,10 +222,10 @@ const Header = () => {
                   </p>
                 </div>
                 <div className="col-md-4">
-                  <img src="/image/ellipse.png" className="ellipse" alt="" />
+                  
                 </div>
               </div>
-              <div className="row">
+              <div className="row flex-lg-row align-items-center flex-md-column ">
                 <div className="col-md-8">
                   <form className="search-form container">
                     <div className="row">
@@ -295,7 +298,7 @@ const Header = () => {
               </div>
               <div className="row counter-row">
                 <div className="col-md-6 col-6 vertical">
-                  <div className="counter-item vertical__1  d-flex ">
+                  <div className="counter-item vertical__1  d-flex justify-content-end">
                     <h1 >
                       {count1}+ 
                     </h1>
@@ -314,7 +317,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6 col-lg-4 col-sm-12 hero__img" style={{marginTop:"50px"}}>
               <img src="/image/banner-right.png" alt="" width="100%" />
             </div>
           </div>
