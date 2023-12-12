@@ -168,11 +168,11 @@ const Signup = () => {
             <div className="social-icons mt-3">
               <div className="row">
                 <div className="googleButton">
-                  <button className="lognwithbutton">
+                  <button className="lognwithbutton" style={{ backgroundColor : "#fff"}}>
                     <img
                       src="/icons/devicon_google.svg"
                       alt=""
-                      style={{ marginRight: "20px", width: "15px" }}
+                      style={{ marginRight: "20px", width: "15px"  }}
                     />
                     <span className="loginWithgoogle">Login with Google</span>
                   </button>
@@ -264,7 +264,7 @@ const Signup = () => {
                           className="emailInput"
                           placeholder="Password"
                           name="password"
-                          value={formData.password}
+                          value={formData.password} 
                           onChange={handleInputChange}
                           required
                         />

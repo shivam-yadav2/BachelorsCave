@@ -96,7 +96,7 @@ function LoginPage() {
 
                     </div>
 
-                    <div className="form-group mb-3" style={{ width: "100%" }}>
+                    <div className="form-group mb-3 mt-4" style={{ width: "100%" }}>
                       <div className=" text-left loginWidth">
                         <img
                           src="/image/password.png"

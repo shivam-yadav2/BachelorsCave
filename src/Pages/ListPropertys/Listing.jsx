@@ -36,61 +36,37 @@ const Listing = () => {
                             </div>
                             <div className="col-lg-9 col-md-9 col-sm-9  p-0">
                                 <div className="tab-content" id="pills-tabContent">
-                                    <div className="w-100 tab-pane listing__pg show container active" id="room-detail" role="tabpanel" aria-labelledby="room-detail-tab">
-                                        <h3>Room Details</h3>
+                                    <div className="w-100 tab-pane listing__pg show container-fluid active" id="room-detail" role="tabpanel" aria-labelledby="room-detail-tab">
+                                        <h3>Property Details</h3>
                                         <hr className="divide" />
                                         <div className="mb-3">
-                                            <label htmlFor="pg-name" className="form-label">PG Name *</label><input type="text" className="form-control" id="pg-name" placeholder="Enter Your PG Name" />
+                                            <label htmlFor="pg-name" className="form-label form__label__listing">Owner Name </label><input type="text" className="form-control" id="pg-name" placeholder="Enter Your Name" />
                                         </div>
-                                        <h4>Select the type of rooms available in your PG</h4>
-
-                                        <div className="row w-100">
+                                        <div className="row justify-content-between">
                                             <div className="col-lg-6">
-                                                <div >
-                                                    <input type="radio" className="btn-check" name="btnradio" id="btnradio1" autoComplete="off" defaultChecked />
-                                                    <label className="btn btn-outline-primary btn__outline__primary Listing__option " htmlFor="btnradio1">
-                                                        <div className="d-flex justify-content-center"    >
-                                                            <img src="/image/Room.png" alt="" />
-
-                                                        </div>Single</label>
+                                                <label  className="form__label__listing">Apartment Type </label>
+                                                <div className="dropdown-center">
+                                                    
+                                                    <button className="dropdown__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown button<i className="fa-solid fa-chevron-down" />
+                                                    </button>
+                                                    <ul className="dropdown-menu">
+                                                        <li><a className="dropdown-item" href="#">Action</a></li>
+                                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
                                                 </div>
+
+
                                             </div>
-                                            <div className="col-lg-6"> <div >
-                                                <input type="radio" className="btn-check" name="btnradio" id="btnradio2" autoComplete="off" />
-                                                <label className="btn btn-outline-primary btn__outline__primary Listing__option " htmlFor="btnradio2">
-                                                    <div className="d-flex justify-content-center">
-                                                        <img src="/image/Room.png" alt="" />
-                                                        <img src="/image/Room.png" alt="" />
+                                            <div className="col-lg-5">
+                                                <div>
+                                                    <label htmlFor="exampleInputEmail1" className="form-label form__label__listing">Email address</label>
+                                                    <input type="email" className="form-control listing__email" placeholder="Eg. WinterSpring Rental, etc..." id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                                </div>
 
-                                                    </div>Double</label>
-                                            </div></div>
-                                            <div className="col-lg-6"> <div >
-                                                <input type="radio" className="btn-check" name="btnradio" id="btnradio3" autoComplete="off" />
-                                                <label className="btn btn-outline-primary btn__outline__primary  Listing__option" htmlFor="btnradio3">
-                                                    <div className="d-flex justify-content-center">
-                                                        <img src="/image/Room.png" alt="" />
-                                                        <img src="/image/Room.png" alt="" />
-                                                        <img src="/image/Room.png" alt="" />
-
-                                                    </div>Triple</label>
-                                            </div></div>
-                                            <div className="col-lg-6"><div >
-                                                <input type="radio" className="btn-check" name="btnradio" id="btnradio4" autoComplete="off" />
-                                                <label className="btn btn-outline-primary btn__outline__primary Listing__option " htmlFor="btnradio4">
-                                                    <div className="d-flex justify-content-center">
-                                                        <img src="/image/Room.png" alt="" />
-                                                        <img src="/image/Room.png" alt="" />
-                                                        <img src="/image/Room.png" alt="" />
-                                                        <img src="/image/Room.png" alt="" />
-
-                                                    </div>Four</label>
-                                            </div>
                                             </div>
                                         </div>
-
-
-
-
                                     </div>
                                     <div className="tab-pane listing__pg" id="locality-detail" role="tabpanel" aria-labelledby="locality-detail-tab">
                                         <h3>Tenant Space</h3>
@@ -123,11 +99,11 @@ const Listing = () => {
                     </div >
 
                     <div className="listing__foot__btns d-flex">
-                    <button className="listing__foot__btn-1">Back</button>
-                    <button className="listing__foot__btn-2">Save & Continue</button>
-                </div>
+                        <button className="listing__foot__btn-1">Back</button>
+                        <button className="listing__foot__btn-2">Save & Continue</button>
+                    </div>
                 </div >
-                
+
             </section >
             <FooterSection />
             <Footer />

@@ -190,8 +190,8 @@
 
 .email__checkbox {
   text-align: right;
-  width: 83%;
-  margin-left: 57px;
+  width: 77%;
+  margin-left: 84px;
   padding: 0px 65px;
   margin-top: 30px;
   color: #4F4E4E;
@@ -202,6 +202,7 @@
   line-height: 97.023%;
   /* 16.649px */
   letter-spacing: 0.172px;
+  position: relative;
 
 }
 
@@ -211,11 +212,15 @@
   flex-shrink: 0;
   border-radius: 3.654px;
   border: 1.37px solid #515151;
+  margin-left: -1rem !important;
+  position: absolute;
+  bottom: 2px;
 }
 
 .email__checkbox label{
   padding:0 ;
   padding-right: 30px;
+  padding-left: 2px;
 }
 
 .email__checkbox span {
@@ -293,7 +298,7 @@
 
   .email__checkbox {
     text-align: right;
-    width: 83%;
+    width: 77%;
     margin-left: 0px;
     padding: 0px;
     margin-top: 30px;
@@ -305,6 +310,8 @@
     line-height: 0%;
     letter-spacing: 0px;
   }
+
+  
 
   .email__checkbox label {
     font-size: 13px;
