@@ -15,7 +15,7 @@
   font-family: Inter;
   font-size: 33px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 97.023%;
   /* 32.018px */
   margin-left: 20px;
@@ -238,6 +238,7 @@
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .listing__email {
@@ -256,5 +257,39 @@
 }
 
 .dropdown__btn i {
-  padding-left: 190px;
+  padding-left: 280px;
+}
+
+.dropdown__btn__bhk i {
+  padding-left: 150px;
+}
+
+.dropdown__menu__listing {
+  width: 100% !important;
+  height: 133px !important;
+  padding: 0 !important;
+}
+.dropdown__menu__listing__bhk {
+  width: 100% !important;
+  height: 266px !important;
+  padding: 0 !important;
+}
+.dropdown__menu__listing__facing {
+  width: 100% !important;
+  height: 400px !important;
+  padding: 0 !important;
+}
+.dropdown__menu__listing__property {
+  width: 100% !important;
+  height: 177px !important;
+  padding: 0 !important;
+}
+
+.dropdown__item__listing {
+
+  padding: 12px 10px;
+}
+
+.drop__down{
+  position: relative;
 }
