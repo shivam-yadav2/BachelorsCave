@@ -4,6 +4,8 @@
   background: url("/image/listbg.png");
   background-repeat: no-repeat;
   margin: 0 auto;
+  background-size: 100%;
+  border-radius: 20px;
 }
 
 .listing {
@@ -105,6 +107,7 @@
 .divide {
   width: 100%;
   margin-bottom: 30px;
+  z-index: 0 !important;
 }
 
 .form-label {
@@ -310,7 +313,7 @@
 
 .dropdown__menu__listing__facing {
   width: 100% !important;
-  height: 400px ;
+  height: 400px;
   padding: 0 !important;
 }
 
@@ -321,19 +324,19 @@
 }
 
 
-.dropdown__menu__listing__balcony{
+.dropdown__menu__listing__balcony {
   width: 100% !important;
   height: 310px !important;
   padding: 0 !important;
 }
 
-.dropdown__menu__listing__water{
+.dropdown__menu__listing__water {
   width: 100% !important;
   height: 133px !important;
   padding: 0 !important;
 }
 
-.dropdown__menu__listing__bath{
+.dropdown__menu__listing__bath {
   width: 100% !important;
   height: 266px !important;
   padding: 0 !important;
@@ -379,23 +382,20 @@
   height: 32px;
 }
 
-.amenities__box{
+.amenities__box {
   width: 100%;
   border: 1px solid grey;
   border-radius: 5px;
   height: 50px;
 }
 
-.amenities__box img{
+.amenities__box img {
   margin-top: 8px;
   margin-left: 8px;
 }
 
-.amenities__box p{
-  margin-top: 10px;
-}
 
-.amenities__btn{
+.amenities__btn {
   width: 48px;
   height: 32px;
   padding-top: 6px;
@@ -403,7 +403,11 @@
   border-radius: 5px;
 }
 
-.btn-check:active+.amenities__btn, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .amenities__btn.dropdown-toggle.show, .amenities__btn:active {
+.btn-check:active+.amenities__btn,
+.btn-check:checked+.btn-outline-primary,
+.btn-outline-primary.active,
+.amenities__btn.dropdown-toggle.show,
+.amenities__btn:active {
   color: #000 !important;
   font-family: Inter;
   font-size: 16px;
@@ -416,3 +420,48 @@
   background: transparent !important;
 }
 
+/* <=============================Gallery ===========================> */
+
+.gallery__img__upload {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 48px 8px;
+}
+
+.gallery__img__upload img {
+  width: 32px;
+  height: 32px;
+}
+
+.img__upload__head {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.img__upload__head h1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.img__upload__head p {
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: rgb(156 163 175);
+}
+
+.gallery__img__upload label {
+  background-image: linear-gradient(90deg, #4776e6 0, #8e54e9 51%, #4776e6);
+  background-size: 200% auto;
+  display: block;
+  font-weight: 600;
+  padding: .7rem 1rem;
+  cursor: pointer;
+  transition: .7s;
+color: #fff;
+border-radius: .5rem;
+}

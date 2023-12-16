@@ -67,7 +67,7 @@ const SubNavbar = () => {
                   <button id="user__name" className="d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Anas <i className="fa-solid fa-chevron-down" />
                   </button>
-                  <ul className="dropdown-menu mt-2">
+                  <ul className="dropdown-menu mt-2 z-10">
                     <li><a className="dropdown__item" href="#">My Profile</a></li>
                     <hr />
                     <li>
