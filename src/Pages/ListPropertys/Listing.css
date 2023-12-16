@@ -1,6 +1,6 @@
 .listing__body {
   width: 98%;
-  height: 506px;
+  height: 100%;
   background: url("/image/listbg.png");
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -48,6 +48,8 @@
   width: 100%;
   height: 69px;
   flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 600;
   border-radius: 45px 0px 0px 45px;
   background: rgba(255, 255, 255, 0.29);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -79,11 +81,11 @@
 }
 
 .list__link img {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   flex-shrink: 0;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 7px;
+  margin-left: 9px;
 }
 
 .lisitngTop {
@@ -94,7 +96,7 @@
 .list__link {
   color: #fff;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -115,11 +117,9 @@
 }
 
 .listing__pg {
-  padding: 0 42px;
-  padding-top: 25px;
-  padding-bottom: 57px;
-  width: 100%;
-  height: 506px !important;
+  padding: 25px;
+  width: 100% !important;
+  height: 100% !important;
   background-color: #fff;
   box-shadow: 0px 1px 4px grey;
   border-radius: 17px;
@@ -243,25 +243,57 @@
 
 .listing__email {
   width: 100%;
+  height: 40px;
+}
+
+.listing__rent__box {
+  width: 100%;
+  height: 40px;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.listing__rent__box p {
+  margin-top: 14px;
+  padding: 0 5px;
+}
+
+.listing__rent__box p:nth-child(1) {
+  font-weight: 600;
+}
+
+.listing__rent__box p:nth-child(2) {
+  font-style: italic;
+  color: grey;
+}
+
+.listing__rent__box input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 10px;
 }
 
 .dropdown__btn {
   width: 100%;
-  height: 35px;
+  height: 40px;
   align-items: start;
   text-align: start;
   border: 1px solid #ced4da;
-  background-color: #fff;
+  background-color: #ffffff69;
   padding: 5px;
   border-radius: 5px;
 }
 
 .dropdown__btn i {
-  padding-left: 280px;
+  padding-left: 410px;
 }
 
 .dropdown__btn__bhk i {
-  padding-left: 150px;
+  padding-left: 233px;
 }
 
 .dropdown__menu__listing {
@@ -269,19 +301,41 @@
   height: 133px !important;
   padding: 0 !important;
 }
+
 .dropdown__menu__listing__bhk {
   width: 100% !important;
   height: 266px !important;
   padding: 0 !important;
 }
+
 .dropdown__menu__listing__facing {
   width: 100% !important;
-  height: 400px !important;
+  height: 400px ;
   padding: 0 !important;
 }
+
 .dropdown__menu__listing__property {
   width: 100% !important;
   height: 177px !important;
+  padding: 0 !important;
+}
+
+
+.dropdown__menu__listing__balcony{
+  width: 100% !important;
+  height: 310px !important;
+  padding: 0 !important;
+}
+
+.dropdown__menu__listing__water{
+  width: 100% !important;
+  height: 133px !important;
+  padding: 0 !important;
+}
+
+.dropdown__menu__listing__bath{
+  width: 100% !important;
+  height: 266px !important;
   padding: 0 !important;
 }
 
@@ -290,6 +344,75 @@
   padding: 12px 10px;
 }
 
-.drop__down{
+.drop__down {
   position: relative;
+  background-color: rgb(233 233 233) !important;
 }
+
+.dropdown__menu__property {
+  width: 100% !important;
+  height: 45px !important;
+  padding: 0 !important;
+}
+
+.locality__location button {
+  color: rgba(17, 28, 85, 0.9);
+  font-family: Inter;
+  font-size: 20px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: nome;
+  border: none;
+  background-color: transparent;
+}
+
+.locality__location p {
+  color: grey;
+  font-size: 12px;
+}
+
+.locality__map__listing img {
+  width: 32px;
+  height: 32px;
+}
+
+.amenities__box{
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.amenities__box img{
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.amenities__box p{
+  margin-top: 10px;
+}
+
+.amenities__btn{
+  width: 48px;
+  height: 32px;
+  padding-top: 6px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn-check:active+.amenities__btn, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .amenities__btn.dropdown-toggle.show, .amenities__btn:active {
+  color: #000 !important;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.023%;
+  letter-spacing: -0.24px;
+  border-radius: 3.42px;
+  border: 1px solid #000 !important;
+  background: transparent !important;
+}
+
