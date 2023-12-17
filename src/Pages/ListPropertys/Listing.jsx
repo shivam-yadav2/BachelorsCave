@@ -14,8 +14,6 @@ const Listing = () => {
                         <div className="row listing__body">
                             <div className="col-lg-2 col-md-3 col-sm-3 p-0">
                                 <div className="row flex-column">
-
-
                                     <ul className=" col-lg-6 nav nav-pills mb-3 d-flex flex-column detail__menu__list" id="pills-tab" role="tablist" style={{ width: "100%" }}>
                                         <li className="nav-item lisitngTop " role="presentation">
                                             <button className="w-100 nav-link  list__link d-flex justify-content-start active" id="room-detail-tab" data-bs-toggle="pill" data-bs-target="#room-detail" type="button" role="tab" aria-controls="room-detail" aria-selected="true"><img src="/image/Rectangle 10.png" alt />Room Details</button></li>
@@ -462,14 +460,13 @@ const Listing = () => {
                                                         paddingBottom: "5px",
                                                         paddingTop: "15px"
                                                     }}>GYM</p>
-                                                    <div className="btn-group d-flex flex-row" role="group" aria-label="Basic radio toggle button group" style={{
-                                                        width: "110px"
-                                                    }}>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-no-btn" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-no-btn">No</label>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-yes-btn" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-yes-btn">Yes</label>
+                                                    <div className="amenities__btn amenities__btn0 d-flex mt-2 me-2" >
+                                                        <input type="radio" id="gym-no0" name="fav_language0" defaultValue="gym-no" hidden />
+                                                        <label className=" gym__no0" htmlFor="gym-no0">No</label><br />
+                                                        <input type="radio" id="gym-yes0" name="fav_language0" defaultValue="gym-yes" hidden/>
+                                                        <label className="gym__yes0 ms-1" htmlFor="gym-yes0">Yes</label><br />
                                                     </div>
+
                                                 </div>
                                             </div>
                                             <div className="col-lg-3" style={{
@@ -484,13 +481,11 @@ const Listing = () => {
                                                         paddingBottom: "5px",
                                                         paddingTop: "5px"
                                                     }}>Non-veg <br /> allowed</p>
-                                                    <div className="btn-group d-flex flex-row" role="group" aria-label="Basic radio toggle button group" style={{
-                                                        width: "110px"
-                                                    }}>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-no-btn1" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-no-btn1">No</label>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-yes-btn1" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-yes-btn1">Yes</label>
+                                                    <div className="amenities__btn amenities__btn1 d-flex mt-2 me-2" >
+                                                        <input type="radio" id="gym-no1" name="fav_language1" defaultValue="gym-no" hidden />
+                                                        <label className=" gym__no1" htmlFor="gym-no1">No</label><br />
+                                                        <input type="radio" id="gym-yes1" name="fav_language1" defaultValue="gym-yes" hidden/>
+                                                        <label className="gym__yes1 ms-1" htmlFor="gym-yes1">Yes</label><br />
                                                     </div>
                                                 </div>
 
@@ -507,13 +502,11 @@ const Listing = () => {
                                                         paddingBottom: "5px",
                                                         paddingTop: "5px"
                                                     }}>Gated <br />Security</p>
-                                                    <div className="btn-group d-flex flex-row" role="group" aria-label="Basic radio toggle button group" style={{
-                                                        width: "110px"
-                                                    }}>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-no-btn2" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-no-btn2">No</label>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-yes-btn2" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-yes-btn2">Yes</label>
+                                                    <div className="amenities__btn amenities__btn2 d-flex mt-2 me-2" >
+                                                        <input type="radio" id="gym-no2" name="fav_language2" defaultValue="gym-no" hidden />
+                                                        <label className=" gym__no2" htmlFor="gym-no2">No</label><br />
+                                                        <input type="radio" id="gym-yes2" name="fav_language2" defaultValue="gym-yes" hidden/>
+                                                        <label className="gym__yes2 ms-1" htmlFor="gym-yes2">Yes</label><br />
                                                     </div>
                                                 </div>
 
@@ -530,13 +523,11 @@ const Listing = () => {
                                                         paddingBottom: "5px",
                                                         paddingTop: "5px"
                                                     }}>Smoking <br />allowed</p>
-                                                    <div className="btn-group d-flex flex-row" role="group" aria-label="Basic radio toggle button group" style={{
-                                                        width: "110px"
-                                                    }}>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-no-btn3" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-no-btn3">No</label>
-                                                        <input type="radio" className="btn-check" name="btnradio" id="amenities-yes-btn3" autoComplete="off" />
-                                                        <label className=" amenities__btn btn-outline-primary" htmlFor="amenities-yes-btn3">Yes</label>
+                                                    <div className="amenities__btn amenities__btn3 d-flex mt-2 me-2" >
+                                                        <input type="radio" id="gym-no3" name="fav_language3" defaultValue="gym-no" hidden />
+                                                        <label className=" gym__no3" htmlFor="gym-no3">No</label><br />
+                                                        <input type="radio" id="gym-yes3" name="fav_language3" defaultValue="gym-yes" hidden/>
+                                                        <label className="gym__yes3 ms-1" htmlFor="gym-yes3">Yes</label><br />
                                                     </div>
                                                 </div>
 
@@ -565,17 +556,203 @@ const Listing = () => {
                                                         <img src="/image/flag.png" alt="" style={{
                                                             width: "32px",
                                                             height: "32px",
-                                                            marginRight:"25px"
+                                                            marginRight: "25px"
                                                         }} /> +91
                                                         <input type="number" className="w-100" style={{
-                                                            backgroundColor:"transparent",
-                                                            border:"none",
-                                                            paddingLeft:"15px"
+                                                            backgroundColor: "transparent",
+                                                            border: "none",
+                                                            paddingLeft: "15px"
                                                         }} placeholder="Secondary number" />
                                                     </div>
 
                                                 </div>
                                             </div>
+                                            <div className="col-lg-12 mt-4 mb-5">
+                                                <label className="form__label__listing">Any direction tip for your tenants</label>
+                                                <textarea name="description" id="description" placeholder="Write a few lines about how to reach your property. Eg. Opposite to the Supermarket" style={{
+                                                    height: "120px",
+                                                    width: "100%",
+                                                    borderRadius: "10px",
+                                                    border: "1px solid grey",
+                                                    padding: "10px"
+                                                }}></textarea>
+                                            </div>
+                                        </div>
+                                        <hr className="divide mb-4" />
+                                        <h3> Select the available amenities</h3>
+
+                                        <div className="row justify-content-between mt-4">
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download2.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Lift</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download3.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Internet Services</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download4.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Air Conditioner</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download5.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Club House</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download6.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Intercom</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download7.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Swimming Pool</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download8.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Children play area</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download9.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Fire safety</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download10.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Servant room</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download11.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Shopping center</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download12.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Gas pipeline</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download13.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Park</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download14.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Rain eater harvesting</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download15.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Sewage treatment plant</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download16.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>House keeping</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download17.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Power backup</p>
+                                                </label>
+                                            </div>
+                                            <div className="mt-4 col-lg-6 d-flex align-items-center">
+                                                <input type="checkbox" id="lift" className="cursor-pointer" />
+                                                <label htmlFor="lift" className="d-flex amenities__checks">
+                                                    <img src="/image/download18.png" alt="" style={{
+                                                        width: "32px",
+                                                        height: "32px"
+                                                    }} />
+                                                    <p>Visitor parking</p>
+                                                </label>
+                                            </div>
+
                                         </div>
                                     </div>
 
@@ -609,9 +786,137 @@ const Listing = () => {
                                     </div>
 
                                     <div className="tab-pane listing__pg" id="schedule" role="tabpanel" aria-labelledby="schedule-tab">
-                                        <h3>Delete Listing</h3>
-                                        <div className="user__id d-flex justify-content-between align-items-center" />
-                                        <div className="personal__info" />
+                                        <h3>Schedule visit</h3>
+                                        <hr className="divide" />
+                                        <label className="form-label form__label__listing ">Availability </label>
+                                        <div className="d-flex">
+                                            <div className="d-flex avail__check">
+                                                <input type="radio" id="everyday" name="fav_language" defaultValue="HTML" hidden />
+                                                <label className="avail-box" htmlFor="everyday"><img src="/image/routine.png" alt="" style={{
+                                                    width: "40px",
+                                                    height: "40px"
+                                                }} />
+                                                    <h1>Everyday</h1>
+                                                    <p>Mon-Sun</p></label><br />
+                                                <input type="radio" id="weekday" name="fav_language" defaultValue="CSS" hidden />
+                                                <label className="avail-box" htmlFor="weekday"><img src="/image/routine.png" alt="" style={{
+                                                    width: "40px",
+                                                    height: "40px"
+                                                }} />
+                                                    <h1>Everyday</h1>
+                                                    <p>Mon-Sun</p></label><br />
+                                                <input type="radio" id="weekend" name="fav_language" defaultValue="JavaScript" hidden />
+                                                <label className="avail-box" htmlFor="weekend"><img src="/image/routine.png" alt="" style={{
+                                                    width: "40px",
+                                                    height: "40px"
+                                                }} />
+                                                    <h1>Everyday</h1>
+                                                    <p>Mon-Sun</p></label>
+                                            </div>
+                                        </div>
+                                        <h3 className="mt-4">Select time schedule</h3>
+                                        <div className="row">
+                                            <div className="col-lg-6 align-items-between">
+                                                <label className="form__label__listing">Start time</label>
+                                                <div className="dropdown-center drop__down" >
+
+                                                    <button className="dropdown__btn dropdown__btn__img d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="/image/start.png" style={{
+                                                            width: "32px",
+                                                            height: "32px",
+                                                            marginRight: "10px"
+                                                        }} alt="" />select<i className="fa-solid fa-chevron-down" style={{
+                                                            paddingLeft: "380px"
+                                                        }} />
+                                                    </button>
+                                                    <ul size="4" className="dropdown-menu dropdown__menu__listing__facing">
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">7:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">7:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">8:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">8:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">9:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">9:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">10:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">10:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">11:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">11:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">12:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">12:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">01:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">01:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">02:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">02:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">03:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">03:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">04:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">04:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">05:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">05:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">06:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">06:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">07:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">07:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">08:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">08:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">09:00 PM</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 align-items-between">
+                                                <label className="form__label__listing">End time</label>
+                                                <div className="dropdown-center drop__down" >
+
+                                                    <button className="dropdown__btn dropdown__btn__img d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="/image/end.png" style={{
+                                                            width: "32px",
+                                                            height: "32px",
+                                                            marginRight: "10px"
+                                                        }} alt="" />select<i className="fa-solid fa-chevron-down" style={{
+                                                            paddingLeft: "380px"
+                                                        }} />
+                                                    </button>
+                                                    <ul size="4" className="dropdown-menu dropdown__menu__listing__facing">
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">7:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">7:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">8:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">8:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">9:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">9:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">10:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">10:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">11:00 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">11:30 AM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">12:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">12:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">01:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">01:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">02:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">02:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">03:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">03:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">04:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">04:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">05:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">05:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">06:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">06:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">07:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">07:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">08:00 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">08:30 PM</a></li>
+                                                        <li><a className="dropdown-item dropdown__item__listing" href="#">09:00 PM</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row justify-content-between mt-4 ">
+                                            <div className="form-check ms-3">
+                                                <input className="form-check-input" type="checkbox" defaultValue id="flexCheckDefault" style={{ width: "13px", height: "13px", marginTop: "5.5px" }} />
+                                                <label style={{ fontSize: "1rem", lineHeight: "1.5rem", fontWeight: "600", marginLeft: "5px" }} className="form-check-label" htmlFor="flexCheckDefault">
+                                                    Available all day
+                                                </label>
+                                            </div>
+                                        </div>
                                     </div>
 
                                 </div>
