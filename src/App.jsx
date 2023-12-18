@@ -8,6 +8,8 @@ import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import Listing from "./Pages/ListPropertys/Listing";
 import Profile from "./Pages/Profile/Profile";
 import Filter from "./Pages/Filter/Filter";
+import Admin from "./Pages/Admin/Admin";
+import Owner from "./Pages/Owner/Owner";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/listing' element={<Listing />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/filter' element={<Filter />} />
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/owner' element={<Owner />} />
       </Routes>
     </BrowserRouter>
   );
