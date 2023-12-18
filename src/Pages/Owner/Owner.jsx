@@ -73,9 +73,12 @@ const Owner = () => {
                                 <div className="owner__property__type d-flex flex-column align-items-center justify-content-center">
                                     <h1>Property Type</h1>
                                     <div className='property__type__btn d-flex justify-content-between '>
-                                        <button>Flats/Apartments</button>
-                                        <button>PG/Hostel</button>
-                                        <button>Residential House</button>
+                                        <input type='radio' id='property-btn1' name='property_buttons' hidden />
+                                        <label htmlFor="property-btn1">Flats/Apartments</label>
+                                        <input type='radio' id='property-btn2' name='property_buttons' hidden />
+                                        <label htmlFor="property-btn2">PG/Hostel</label>
+                                        <input type='radio' id='property-btn3' name='property_buttons' hidden />
+                                        <label htmlFor="property-btn3">Residential House</label>
                                     </div>
                                 </div>
                             </div>
