@@ -2,6 +2,8 @@ import React from 'react';
 // import { useState } from "react";
 import './Owner.css'
 import SubNavbar from '../../Components/Layout/Header/SubNavbar';
+import Footer from "../../Components/Footer";
+
 
 const Owner = () => {
 
@@ -75,7 +77,7 @@ const Owner = () => {
                                     <div className='property__type__btn d-flex justify-content-between '>
                                         <input type='radio' id='property-btn1' name='property_buttons' hidden />
                                         <label htmlFor="property-btn1">Flats/Apartments</label>
-                                        <input type='radio' id='property-btn2' name='property_buttons' hidden />
+                                        <input type='radio' id='property-btn2' name='property_buttons' hidden defaultChecked />
                                         <label htmlFor="property-btn2">PG/Hostel</label>
                                         <input type='radio' id='property-btn3' name='property_buttons' hidden />
                                         <label htmlFor="property-btn3">Residential House</label>
@@ -85,7 +87,56 @@ const Owner = () => {
                         </div>
                     </div>
                 </div>
+                <div className="listing__foot__btns d-flex">
+                    <button className="listing__foot__btn-2">Continue</button>
+                </div>
+                
             </section>
+            <div className="container-fluid px-0 ">
+                    <div className="owner__card__sec d-flex justify-content-center align-items-center flex-column pb-4">
+                        <h1>How it works?</h1>
+                        <div className='d-flex justify-content-between pb-4'>
+                            <div className="owner__card">
+                                <div className="d-flex align-items-start">
+                                    <img src="/image/Component 13.png" alt="" />
+                                    <div className="d-flex flex-column owner__card__content">
+                                        <h3>Share your Property
+                                            Details</h3>
+                                        <p>Enter all details like locality
+                                            name, amenities etc. along with
+                                            uploading Photos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="owner__card">
+                                <div className="d-flex align-items-start">
+                                    <img src="/image/Component 13.png" alt="" />
+                                    <div className="d-flex flex-column owner__card__content">
+                                        <h3>Share your Property
+                                            Details</h3>
+                                        <p>Enter all details like locality
+                                            name, amenities etc. along with
+                                            uploading Photos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="owner__card">
+                                <div className="d-flex align-items-start">
+                                    <img src="/image/Component 13.png" alt="" />
+                                    <div className="d-flex flex-column owner__card__content">
+                                        <h3>Share your Property
+                                            Details</h3>
+                                        <p>Enter all details like locality
+                                            name, amenities etc. along with
+                                            uploading Photos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <Footer />
+
         </>
     )
 }
