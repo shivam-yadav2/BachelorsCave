@@ -43,7 +43,7 @@ const Listing = () => {
                                         <h3>Property Details</h3>
                                         <hr className="divide" />
                                         <div className="mb-3" >
-                                            <label htmlFor="pg-name" className="form-label form__label__listing">Owner Name </label><input type="text" className="form-control" id="pg-name" placeholder="Enter Your Name" style={{ backgroundColor: "rgb(233 233 233)" }} />
+                                            <label htmlFor="pg-name" className="form-label form__label__listing">Owner Name </label><input type="text" className="form-control" id="pg-name" placeholder="Enter Your Name" style={{ backgroundColor: "#f9fafc" }} />
                                         </div>
                                         <div className="row justify-content-between">
                                             <div className="col-lg-6 align-items-between">
@@ -148,8 +148,8 @@ const Listing = () => {
 
 
                                         </div>
-                                        <div className="mt-3">
-                                            <label htmlFor="pg-name" className="form-label form__label__listing">Built up area </label><input type="number" className="form-control" id="pg-name" placeholder="area sqft." />
+                                        <div className="mt-3 col-lg-6">
+                                            <label htmlFor="pg-name" className="form-label form__label__listing">Built up area </label><input type="number" className="form-control listing__email" id="pg-name" placeholder="area sqft." />
                                         </div>
                                     </div>
 
@@ -463,7 +463,7 @@ const Listing = () => {
                                                     <div className="amenities__btn amenities__btn0 d-flex mt-2 me-2" >
                                                         <input type="radio" id="gym-no0" name="fav_language0" defaultValue="gym-no" hidden />
                                                         <label className=" gym__no0" htmlFor="gym-no0">No</label><br />
-                                                        <input type="radio" id="gym-yes0" name="fav_language0" defaultValue="gym-yes" hidden/>
+                                                        <input type="radio" id="gym-yes0" name="fav_language0" defaultValue="gym-yes" hidden />
                                                         <label className="gym__yes0 ms-1" htmlFor="gym-yes0">Yes</label><br />
                                                     </div>
 
@@ -484,7 +484,7 @@ const Listing = () => {
                                                     <div className="amenities__btn amenities__btn1 d-flex mt-2 me-2" >
                                                         <input type="radio" id="gym-no1" name="fav_language1" defaultValue="gym-no" hidden />
                                                         <label className=" gym__no1" htmlFor="gym-no1">No</label><br />
-                                                        <input type="radio" id="gym-yes1" name="fav_language1" defaultValue="gym-yes" hidden/>
+                                                        <input type="radio" id="gym-yes1" name="fav_language1" defaultValue="gym-yes" hidden />
                                                         <label className="gym__yes1 ms-1" htmlFor="gym-yes1">Yes</label><br />
                                                     </div>
                                                 </div>
@@ -505,7 +505,7 @@ const Listing = () => {
                                                     <div className="amenities__btn amenities__btn2 d-flex mt-2 me-2" >
                                                         <input type="radio" id="gym-no2" name="fav_language2" defaultValue="gym-no" hidden />
                                                         <label className=" gym__no2" htmlFor="gym-no2">No</label><br />
-                                                        <input type="radio" id="gym-yes2" name="fav_language2" defaultValue="gym-yes" hidden/>
+                                                        <input type="radio" id="gym-yes2" name="fav_language2" defaultValue="gym-yes" hidden />
                                                         <label className="gym__yes2 ms-1" htmlFor="gym-yes2">Yes</label><br />
                                                     </div>
                                                 </div>
@@ -526,7 +526,7 @@ const Listing = () => {
                                                     <div className="amenities__btn amenities__btn3 d-flex mt-2 me-2" >
                                                         <input type="radio" id="gym-no3" name="fav_language3" defaultValue="gym-no" hidden />
                                                         <label className=" gym__no3" htmlFor="gym-no3">No</label><br />
-                                                        <input type="radio" id="gym-yes3" name="fav_language3" defaultValue="gym-yes" hidden/>
+                                                        <input type="radio" id="gym-yes3" name="fav_language3" defaultValue="gym-yes" hidden />
                                                         <label className="gym__yes3 ms-1" htmlFor="gym-yes3">Yes</label><br />
                                                     </div>
                                                 </div>
