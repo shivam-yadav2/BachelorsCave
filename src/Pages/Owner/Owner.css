@@ -13,7 +13,7 @@ p {
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #EAE9EF;
+   
 }
 
 .owner__section {
@@ -27,7 +27,10 @@ body {
 }
 
 #owner-sec {
+    width: 100%;
+    height: 100%;
     padding: 100px;
+    background: #EAE9EF;
 }
 
 .owner__right {

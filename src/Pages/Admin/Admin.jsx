@@ -49,8 +49,8 @@ const Admin = () => {
                                                 <a className="btn  w-100  dropdown-toggle d-flex align-items-center justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     All
                                                     <img src="/image/Vector (13).png" alt="" style={{
-                                                        width: "11px",
-                                                        height: "14px"
+                                                        width: "15px",
+                                                        height: "12px"
                                                     }} />
                                                 </a>
 
@@ -67,8 +67,8 @@ const Admin = () => {
                                                 <a className="btn  w-100  dropdown-toggle d-flex align-items-center justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Search Properties
                                                     <img src="/image/Vector (13).png" alt="" style={{
-                                                        width: "11px",
-                                                        height: "14px"
+                                                        width: "15px",
+                                                        height: "12px"
                                                     }} />
                                                 </a>
 
@@ -192,7 +192,65 @@ const Admin = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4"></div>
+                    <div className="col-lg-4">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="admin__view__profile d-flex justify-content-between align-items-center ">
+                                    <div>
+                                        <h2>Mohd Anas</h2>
+                                        <a href="#">View Profile</a>
+                                    </div>
+                                    <img src="/image/Vector (14).png" alt="" />
+                                </div>
+                                <div className="col-lg-12 ">
+                                    <div className="admin__add__prop d-flex justify-content-between align-items-center mt-4">
+                                        <h2>Add new Property</h2>
+                                        <img src="/image/Vector (14).png" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-lg-12 ">
+                                    <div className="admin__add__prop d-flex justify-content-between align-items-center mt-4">
+                                        <h2>Add new Property</h2>
+                                        <img src="/image/Vector (14).png" alt="" />
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-12 ">
+                                    <div className="admin__matching__tenants mt-4 d-flex justify-content-between align-items-center flex-column">
+                                        <div className="matching__top d-flex">
+                                            <img src="/image/image 2.png" alt="" />
+                                            <h3>34 Matching Tenants <br /> <span>in Kharar, Punjab</span></h3>
+                                        </div>
+                                        <div className="matching__mid">
+                                            <div className="mid__head d-flex justify-content-between">
+                                                <h2>Name</h2>
+                                                <button>Good Match</button>
+                                            </div>
+                                            <div className="row mt-2">
+                                                <div className="col-lg-5">Budget:</div>
+                                                <div className="col-lg-7">₹ 7,200 - ₹ 8000</div>
+                                                <div className="col-lg-5">Last Active on:</div>
+                                                <div className="col-lg-7">Sep 26, 2023</div>
+                                                <div className="col-lg-5">Tenant is looking in:</div>
+                                                <div className="col-lg-7">Kharar, Punjab</div>
+                                                <div className="col-lg-5 mt-2 match__mid__btn">
+                                                    <button>Contact</button>
+                                                </div>
+                                                <div className="col-lg-7 mt-2 match__mid__nav">
+                                                    <a href="#">View next</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="matching__bottom">
+                                            <a href="#">View all tenant</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
