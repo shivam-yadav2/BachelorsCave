@@ -1,4 +1,271 @@
-#owner-space{
+#owner-space {
     padding-left: 100px;
     padding-right: 65px;
+}
+
+.owner__space__card {
+    width: 100%;
+    height: 179px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 0.93px solid #E0E0E0;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    padding-left: 45px;
+    margin-bottom: 55px;
+}
+
+.owner__card__left {
+    /* border: 2px solid black; */
+    padding-right: 40px;
+}
+
+.owner__card__left h4 {
+    color: #6155DF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 16.494px */
+    letter-spacing: -0.255px;
+    margin-bottom: 20px;
+}
+
+.owner__card__left p {
+    width: 455px;
+    color: #555;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 18px */
+    letter-spacing: -0.225px;
+    margin-bottom: 20px;
+}
+
+.owner__card__left button {
+    width: 167px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #6155DF;
+    box-shadow: 1px 0.5px 1px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.023%;
+    /* 13.583px */
+    letter-spacing: -0.21px;
+    outline: none;
+    border: none;
+}
+
+.owner__card__mid {
+    width: 1px;
+    height: 115px;
+    background: rgba(94, 23, 235, 0.20);
+}
+
+.owner__card__right {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.owner__card__right img {
+    width: 24px;
+    height: 17.455px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.admin__pills {
+    width: 100%;
+    height: 656px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 0.5px solid rgba(224, 224, 224, 0.88);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px 34px;
+    background-color: #fff;
+
+}
+
+.admin__pill__menu {
+    width: 100%;
+    padding-right: 130px;
+}
+
+.nav-Link {
+    color: #000;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 18.434px */
+    letter-spacing: -0.285px;
+}
+
+.nav-Link:hover {
+    color: #6155DF;
+}
+
+.nav-pills .nav-Link.active,
+.nav-pills .show>.nav-Link {
+    color: #6155DF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 18.434px */
+    letter-spacing: -0.285px;
+    background-color: transparent;
+}
+
+.manage__drop {
+    border-radius: 5px;
+    border: 0.3px solid #E0E0E0;
+    background: #FFF !important;
+    box-shadow: 0px 1.5px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.manage__pill__card {
+    height: 185px;
+    border-radius: 14.933px !important;
+    border: 0.5px solid #E0E0E0;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.manage__pill__card img {
+    border-radius: 14.933px 0px 0px 14.933px;
+}
+
+.card__ryt__top__content h5 {
+    color: #6155DF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.523%;
+    /* 18.553px */
+    letter-spacing: -0.35px;
+    margin-right: 10px;
+}
+
+.card__ryt__top__content p {
+    color: #565656;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.523%;
+    /* 18.553px */
+    letter-spacing: -0.35px;
+    margin-left: 10px;
+}
+
+.vertical__rule {
+    width: 1px;
+    height: 19.026px;
+    background: #000;
+
+}
+
+.ryt-btm-left h3 {
+    color: #565656;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.523%;
+    /* 21.204px */
+    letter-spacing: -0.4px;
+}
+
+.ryt-btm-left p {
+    color: #696969;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132.523%;
+    /* 13.252px */
+    letter-spacing: -0.15px;
+}
+
+.ryt-btm-left span {
+    color: #555;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.023%;
+    /* 12.613px */
+    letter-spacing: -0.195px;
+}
+
+.btm-ryt-content {
+    width: 93px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 0.5px solid #E0E0E0;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    padding: 7px 0;
+}
+
+.btm-ryt-content p {
+    color: #565656;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 10.673px */
+    letter-spacing: -0.165px;
+    margin: 0;
+}
+
+.btm-ryt-content h4 {
+    color: #555;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.023%;
+    /* 9.702px */
+    letter-spacing: -0.15px;
+    margin: 0;
+}
+
+.line {
+    width: 93px;
+    height: 0.4px;
+    background: rgba(224, 224, 224, 0.88);
+}
+
+.ryt-btm-ryt button {
+    width: 97px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #6155DF;
+    box-shadow: 1px 0.5px 1px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.023%;
+    /* 11.158px */
+    letter-spacing: -0.172px;
+    border: none;
+    margin-top: 33px;
 }

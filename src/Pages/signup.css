@@ -244,6 +244,7 @@
   line-height: 97.023%;
   /* 18.172px */
   letter-spacing: -0.749px;
+  padding-left: 69px;
 }
 
 .signup__lower{
@@ -315,7 +316,7 @@
   
 
   .email__checkbox label {
-    font-size: 13px;
+    font-size: 14px !important;
     text-align: center;
     padding-right: 0;
   }
