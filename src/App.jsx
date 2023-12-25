@@ -11,6 +11,7 @@ import Filter from "./Pages/Filter/Filter";
 import Admin from "./Pages/Admin/Admin";
 import Owner from "./Pages/Owner/Owner";
 import PGlist from "./Pages/PGlist/PGlist";
+import Matching from "./Pages/Matching/Matching";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/admin' element={<Admin />} />
         <Route path='/owner' element={<Owner />} />
         <Route path='/pglist' element={<PGlist />} />
+        <Route path='/matching' element={<Matching />} />
       </Routes>
     </BrowserRouter>
   );
