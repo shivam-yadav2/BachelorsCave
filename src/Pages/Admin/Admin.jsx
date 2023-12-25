@@ -42,7 +42,7 @@ const Admin = () => {
                             </ul>
 
                             <div className="tab-content" id="admin-pillsContent">
-                                <div className='w-100 tab-pane  show container active' id="manage" role="tabpanel" aria-labelledby="manage-tab">
+                                <div className='w-100 tab-pane  show container active' id="manage" role="tabpane2" aria-labelledby="manage-tab">
                                     <div className="row mb-4">
                                         <div className="col-lg-3 position-relative">
                                             <div className="dropdown-center manage__drop w-100">
@@ -181,12 +181,241 @@ const Admin = () => {
                                     </div>
                                 </div>
 
-                                <div className='w-100 tab-pane  show container active' id="performance" role="tabpanel" aria-labelledby="performance-tab">
-                                    yadav
+                                <div className='w-100 tab-pane p-0  show container ' id="performance" role="tabpane2" aria-labelledby="performance-tab">
+                                    <div className="row">
+                                        <div className="col-lg-12 p-0">
+                                            <div className="property__performance d-flex align-items-center w-100">
+                                                <div className="property__performance__lft">
+                                                    <h3>Your Property Performance</h3>
+                                                    <p>Last Update: 28th Sep</p>
+                                                </div>
+                                                <div className="property__performance__mid">
+                                                    <h4>Property Perfomance - <span>Low</span> </h4>
+                                                    <p>Improve Performance -></p>
+                                                </div>
+                                                <div className="property__performance__ryt">
+                                                    <p>25%</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-5 p-0 mt-5">
+                                            <div className="free__member__card">
+                                                <div className="free__member__card__top d-flex justify-content-between">
+                                                    <h3>You (Free Member)</h3>
+                                                    <button>Upgrade</button>
+                                                </div>
+                                                <div className="free__member__card__btm">
+                                                    <div className="row">
+                                                        <div className="col-lg-2 ps-2 ">
+                                                            <div className="property__performance__ryt m-0" >
+                                                                <p style={{
+                                                                    marginLeft: "10px",
+                                                                    marginTop: "10px"
+                                                                }}>17%</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="free__mem__content__ryt">
+                                                                <h3>Tenants can view your property</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-2 ps-4">
+                                                            <div className="free__mem__content__lft">
+                                                                <h3>20</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="free__mem__content__ryt">
+                                                                <h3>Tenants viewed your property</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-2 ps-4">
+                                                            <div className="free__mem__content__lft">
+                                                                <h3>20</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="free__mem__content__ryt">
+                                                                <h3>Tenants viewed your property</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-2 ps-4">
+                                                            <div className="free__mem__content__lft">
+                                                                <h3>20</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="free__mem__content__ryt">
+                                                                <h3>Tenants viewed your property</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-2 p-0 mt-5 d-flex justify-content-center align-items-center " style={{
+                                            fontWeight: "600"
+                                        }}>VS</div>
+                                        <div className="col-lg-5 p-0 mt-5">
+                                            <div className="premium__member__card">
+                                                <div className="premium__member__card__top d-flex justify-content-between">
+                                                    <h3>Abishek</h3>
+                                                    <button className='d-flex align-items-center justify-content-between'><img src="/image/image 1 (1).png" alt="" /> Premium member</button>
+                                                </div>
+                                                <div className="premium__member__card__btm">
+                                                    <div className="row">
+                                                        <div className="col-lg-2 ps-2 ">
+                                                            <div className="property__performance__ryt m-0" >
+                                                                <p style={{
+                                                                    marginLeft: "10px",
+                                                                    marginTop: "10px",
+                                                                    backgroundColor: "#fff",
+                                                                    border: "7px solid #6155DF"
+                                                                }}>97%</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="premium__mem__content__ryt">
+                                                                <h3>Tenants can view your property</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-2 ps-4">
+                                                            <div className="premium__mem__content__lft">
+                                                                <h3>20</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="premium__mem__content__ryt">
+                                                                <h3>Tenants viewed your property</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-2 ps-4">
+                                                            <div className="premium__mem__content__lft">
+                                                                <h3>20</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="premium__mem__content__ryt">
+                                                                <h3>Tenants viewed your property</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-2 ps-4">
+                                                            <div className="premium__mem__content__lft">
+                                                                <h3>20</h3>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 p-0">
+                                                            <div className="premium__mem__content__ryt">
+                                                                <h3>Tenants viewed your property</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div className='w-100 tab-pane  show container active' id="response" role="tabpanel" aria-labelledby="response-tab">
-                                    developer
+                                <div className='w-100 tab-pane p-0  show container' id="response" role="tabpane2" aria-labelledby="response-tab">
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-4 position-relative">
+                                            <div className="dropdown-center manage__drop w-100" style={{
+                                                height: "33px"
+                                            }}>
+                                                <a className="btn  w-100  dropdown-toggle d-flex align-items-center justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{
+                                                    marginBottom: "5px",
+                                                    height: "33px"
+                                                }}>
+                                                    Search response
+                                                    <img src="/image/Vector (13).png" alt="" style={{
+                                                        width: "15px",
+                                                        height: "12px"
+                                                    }} />
+                                                </a>
+
+                                                <ul className="dropdown-menu position-absolute w-100 p-0 pt-1">
+                                                    <li><a className="dropdown-item" href="#">Action1</a></li>
+                                                    <li><a className="dropdown-item" href="#">Action2</a></li>
+                                                    <li><a className="dropdown-item" href="#">Action3</a></li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        {/* <div className="col-lg-1"></div> */}
+                                        <div className="col-lg-3 p-0 ms-5 response__pill__btn">
+                                            <button>Pending (1) </button>
+                                        </div>
+                                        <div className="col-lg-3 p-0 ms-0 response__pill__btn">
+                                            <button>Contacted (1)  </button>
+                                        </div>
+                                    </div>
+                                    <div className="row mt-5 ">
+                                        <div className="col-lg-12">
+                                            <div className="response__card">
+                                                <div className="row  ">
+                                                    <div className="col-lg-6 ">
+                                                        <div className="response__card__lft d-flex  align-item-between flex-column">
+                                                            <div className="response__lft__up d-flex align-items-center">
+                                                                <img src="/image/Vector (15).png" alt="" style={{
+                                                                    width: "55px",
+                                                                    height: "55px"
+                                                                }} />
+                                                                <div className='lft__up__content'>
+                                                                    <h1 className='m-0 ps-4'>John Cena (BOY)</h1>
+                                                                    <p className='m-0 mt-1 ps-4'>+91 87........</p>
+                                                                    <p className='m-0 mt-1 ps-4'>john........@gmail.com</p>
+                                                                </div>
+                                                            </div>
+                                                            <div className="response__lft__down mt-4">
+                                                                <button>More options</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-6 d-flex justify-content-end">
+                                                        <div className="response__card__ryt d-flex flex-column justify-content-between align-items-end">
+                                                            <button>Contact</button>
+                                                            <h4>Received  on: <span>jun 20 ,23</span></h4>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12 mt-4">
+                                            <div className="response__card">
+                                                <div className="row  ">
+                                                    <div className="col-lg-6 ">
+                                                        <div className="response__card__lft d-flex  align-item-between flex-column">
+                                                            <div className="response__lft__up d-flex align-items-center">
+                                                                <img src="/image/Vector (15).png" alt="" style={{
+                                                                    width: "55px",
+                                                                    height: "55px"
+                                                                }} />
+                                                                <div className='lft__up__content'>
+                                                                    <h1 className='m-0 ps-4'>Rachel (GIRL)</h1>
+                                                                    <p className='mt-1 m-0 ps-4'>+91 8751871834</p>
+                                                                    <p className='mt-1 m-0 ps-4'>johncena@gmail.com</p>
+                                                                </div>
+                                                            </div>
+                                                            <div className="response__lft__down mt-4">
+                                                                <button>More options</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-6 d-flex justify-content-end">
+                                                        <div className="response__card__ryt  d-flex flex-column justify-content-between align-items-end">
+                                                            <button style={{
+                                                                color:"#fff",
+                                                                backgroundColor:"#5E17EB"
+                                                            }}>Contacted</button>
+                                                            <h4>Received  on: <span>jun 20 ,23</span></h4>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
