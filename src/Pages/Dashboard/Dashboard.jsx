@@ -1,6 +1,6 @@
 import React from 'react';
 // import { useState } from "react";
-import './Admin.css'
+import './Dashboard.css'
 import SubNavbar from '../../Components/Layout/Header/SubNavbar';
 
 

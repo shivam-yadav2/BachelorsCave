@@ -8,7 +8,7 @@ import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import Listing from "./Pages/ListPropertys/Listing";
 import Profile from "./Pages/Profile/Profile";
 import Filter from "./Pages/Filter/Filter";
-import Admin from "./Pages/Admin/Admin";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 import Owner from "./Pages/Owner/Owner";
 import PGlist from "./Pages/PGlist/PGlist";
 import Matching from "./Pages/Matching/Matching";
@@ -24,7 +24,7 @@ function App() {
         <Route path='/listing' element={<Listing />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/filter' element={<Filter />} />
-        <Route path='/admin' element={<Admin />} />
+        <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/owner' element={<Owner />} />
         <Route path='/pglist' element={<PGlist />} />
         <Route path='/matching' element={<Matching />} />
