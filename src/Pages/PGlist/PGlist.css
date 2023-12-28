@@ -292,11 +292,14 @@
   border: 1px solid #ced4da;
   background-color: #f9fafc;
   padding: 5px;
+  position: relative;
   border-radius: 5px;
 }
 
 .dropdown__btn i {
   padding-left: 410px;
+  position: absolute;
+  right: 20px;
   color: #4e4e4e;
 }
 

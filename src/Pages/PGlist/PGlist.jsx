@@ -1,9 +1,42 @@
 import Footer from "../../Components/Footer";
+import React, { useState } from 'react';
 import FooterSection from "../../Components/Layout/FooterSection";
 import SubNavbar from "../../Components/Layout/Header/SubNavbar";
+import CustomDropdown from '../CustomDropdown/CustomDropdown';
 import "./PGlist.css";
 
 const PGlist = () => {
+    // State to hold the selected option
+    const [selectedOption, setSelectedOption] = useState('Select');
+
+    // Function to handle item click
+    const handleItemClick = (option) => {
+        // Set the selected option to the clicked item
+        setSelectedOption(option);
+        // Log the selected option to the console
+        console.log('Selected Option:', option);
+
+
+        // const dropdownOptions2 = ['Choice 1', 'Choice 2', 'Choice 3'];
+    };
+
+    const city = ['Chandigarh'];
+    const PGlistGuest = ['Chandigarh'];
+    const PGlistParking = ['Underground'];
+    const listingStartTime = [
+        '7:00 AM', '7:30 AM', '8:00 AM', '8:30 AM', '9:00 AM', '9:30 AM',
+            '10:00 AM', '10:30 AM', '11:00 AM', '11:30 AM', '12:00 PM', '12:30 PM',
+            '1:00 PM', '1:30 PM', '2:00 PM', '2:30 PM', '3:00 PM', '3:30 PM',
+            '4:00 PM', '4:30 PM', '5:00 PM', '5:30 PM', '6:00 PM', '6:30 PM',
+            '7:00 PM', '7:30 PM', '8:00 PM', '8:30 PM', '9:00 PM'
+    ];
+        const listingEndTime = [
+        '7:00 AM', '7:30 AM', '8:00 AM', '8:30 AM', '9:00 AM', '9:30 AM',
+            '10:00 AM', '10:30 AM', '11:00 AM', '11:30 AM', '12:00 PM', '12:30 PM',
+            '1:00 PM', '1:30 PM', '2:00 PM', '2:30 PM', '3:00 PM', '3:30 PM',
+            '4:00 PM', '4:30 PM', '5:00 PM', '5:30 PM', '6:00 PM', '6:30 PM',
+            '7:00 PM', '7:30 PM', '8:00 PM', '8:30 PM', '9:00 PM'
+    ];
     return (
         <>
             <SubNavbar />
@@ -214,7 +247,7 @@ const PGlist = () => {
                                             <div className="row justify-content-between">
                                                 <div className="col-lg-6 align-items-between">
                                                     <label className="form__label__listing">City </label>
-                                                    <div className="dropdown-center drop__down">
+                                                    {/* <div className="dropdown-center drop__down">
 
                                                         <button className="dropdown__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                             select<i className="fa-solid fa-chevron-down" />
@@ -223,7 +256,9 @@ const PGlist = () => {
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">Chandigarh</a></li>
 
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
+                                                    <CustomDropdown options={city} defaultOption="select" />
+
                                                 </div>
 
                                                 <div className="col-lg-5">
@@ -291,7 +326,7 @@ const PGlist = () => {
                                                 </div>
                                                 <div className="col-lg-6 mt-4">
                                                     <label className="form__label__listing">Preferred Guest  </label>
-                                                    <div className="dropdown-center drop__down">
+                                                    {/* <div className="dropdown-center drop__down">
 
                                                         <button className="dropdown__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                             select<i className="fa-solid fa-chevron-down" />
@@ -299,7 +334,9 @@ const PGlist = () => {
                                                         <ul className="dropdown-menu dropdown__menu__property ">
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">Chandigarh</a></li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
+                                            <CustomDropdown options={PGlistGuest} defaultOption="select" />
+
                                                 </div>
                                                 <div className="col-lg-6 mt-4">
                                                     <label htmlFor="exampleInputEmail6" className="form-label form__label__listing">Available from</label>
@@ -481,7 +518,7 @@ const PGlist = () => {
                                             <div className="row mt-4">
                                                 <div className="col-lg-6 align-items-between">
                                                     <label className="form__label__listing">Parking </label>
-                                                    <div className="dropdown-center drop__down">
+                                                    {/* <div className="dropdown-center drop__down">
 
                                                         <button className="dropdown__btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                             Select Parking Type<i className="fa-solid fa-chevron-down" style={{
@@ -492,7 +529,9 @@ const PGlist = () => {
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">Underground</a></li>
 
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
+                                            <CustomDropdown options={PGlistParking} defaultOption="Select Parking Type" />
+
                                                 </div>
                                             </div>
                                         </form>
@@ -559,7 +598,7 @@ const PGlist = () => {
                                             <div className="row">
                                                 <div className="col-lg-6 align-items-between">
                                                     <label className="form__label__listing">Start time</label>
-                                                    <div className="dropdown-center drop__down" >
+                                                    {/* <div className="dropdown-center drop__down" >
 
                                                         <button className="dropdown__btn dropdown__btn__img d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                             <img src="/image/start.png" style={{
@@ -601,12 +640,12 @@ const PGlist = () => {
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">08:30 PM</a></li>
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">09:00 PM</a></li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
+                                            <CustomDropdown options={listingStartTime} defaultOption="select" />
                                                 </div>
                                                 <div className="col-lg-6 align-items-between">
                                                     <label className="form__label__listing">End time</label>
-                                                    <div className="dropdown-center drop__down" >
-
+                                                    {/* <div className="dropdown-center drop__down" >
                                                         <button className="dropdown__btn dropdown__btn__img d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                             <img src="/image/end.png" style={{
                                                                 width: "32px",
@@ -647,7 +686,8 @@ const PGlist = () => {
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">08:30 PM</a></li>
                                                             <li><a className="dropdown-item dropdown__item__listing" href="#">09:00 PM</a></li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
+                                            <CustomDropdown options={listingEndTime} defaultOption="select" />
                                                 </div>
                                             </div>
                                             <div className="row justify-content-between mt-4 ">
